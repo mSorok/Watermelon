@@ -1,0 +1,7 @@
+Compound	Alternative names	SMILES	CAS_ID	KEGG_ID	HMDB	PubChem	ChEBI_ID	FooDB	LipidMaps	Source databases	AFC_ID
+jasmonic acid-isoleucine conjugate		CC/C=C\C[C@@H]1[C@H](CCC1=O)CC(=O)N[C@@H](CC(C)C)C(=O)O	120330-93-0	no entry found	HMDB0029391	5497150	81897	FDB000472	no entry found	PMID_33092532	AFC001833
+salicylic acid		C1=CC=C(C(=C1)C(=O)O)O	69-72-7	C00805	HMDB0001895	338	16914	FDB031164	no entry found	PMID_33092532	AFC001834
+gibberellic acid	"gibberellin A3;GA3"	C[C@@]12[C@H](C=C[C@@]3([C@@H]1[C@@H]([C@]45[C@H]3CC[C@](C4)(C(=C)C5)O)C(=O)O)OC2=O)O	77-06-5	C01699	HMDB0003559	6466	28833	FDB005727	no entry found	PMID_33092532	AFC001835
+melatonin	N-acetyl-5-methoxytryptamine	CC(=O)NCCC1=CNC2=C1C=C(C=C2)OC	73-31-4	C01598	HMDB0001389	896	16796	FDB004234	no entry found	PMID_33092532	AFC001836
+benzoic acid		C1=CC=C(C=C1)C(=O)O	65-85-0	C00539	HMDB0001870	243	30746	FDB008739	no entry found	PMID_33092532	AFC001837
+3,4-dihydroxybenzoic acid	protocatechuic acid	C1=CC(=C(C=C1C(=O)O)O)O	99-50-3	C00230	HMDB0001856	72	36063	FDB000847	no entry found	PMID_33092532	AFC001838

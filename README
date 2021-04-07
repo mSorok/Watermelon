@@ -1,0 +1,20 @@
+First run the java code to compute most of the molecular properties. This exports the file "curated_watermelon_molecules.tsv" to the data folder.
+Then, RDKit time!
+
+First, activate the RDkit conda environment:
+
+conda activate my-rdkit-env
+jupyter notebook
+
+
+
+# read the watermelon molecules to a pandas dataframe
+
+
+## Step 1: against self: load Watermelon molecules to Mongo as database
+
+
+## Step 2: against ZINC active in vitro (molecules tested to be active in vitro)
+
+
+## Step 3: PubChem, Chembl, chebi.... todo
