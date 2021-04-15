@@ -31,7 +31,7 @@ public class WriteWMolecule {
             writer.write(header+ System.lineSeparator());
 
             for(WatermelonMolecule mol : allMolecules){
-                String line = mol.chemicalSuperClass+"\t"+mol.iupacName+"\t"+mol.cas+"\t"+mol.kegg+"\t"+mol.hmdb+"\t"+mol.pubchem+"\t"+mol.chebi+"\t"+mol.foodb+"\t"+mol.lipidmaps+"\t"+mol.molecular_formula+"\t"+mol.molecular_weight+"\t"+mol.afc_id+"\t"+mol.inchikey+"\t"+mol.absolute_smiles+"\t"+mol.inchi;
+                String line = mol.compoundName+"\t"+mol.iupacName+"\t"+mol.cas+"\t"+mol.kegg+"\t"+mol.hmdb+"\t"+mol.pubchem+"\t"+mol.chebi+"\t"+mol.foodb+"\t"+mol.lipidmaps+"\t"+mol.molecular_formula+"\t"+mol.molecular_weight+"\t"+mol.afc_id+"\t"+mol.inchikey+"\t"+mol.absolute_smiles+"\t"+mol.inchi;
                 writer.write(line+System.lineSeparator());
             }
 

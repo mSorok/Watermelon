@@ -42,12 +42,12 @@ export default class NaturalProductCompoundCard extends React.Component {
     fetchNaturalProductByIdentifier(identifier, identifierValue) {
         restClient({
             method: "GET",
-            path: "/api/compound/search/findBy" + Utils.capitalize(identifier) + "?" + identifier + "=" + encodeURIComponent(identifierValue)
+            path: "/api/compound/search/findByAfc_id" + "?" + identifier + "=" + encodeURIComponent(identifierValue)
         }).then(
             (response) => {
                 this.setState({
                     isLoaded: true,
-                    naturalProduct: response.entity._embedded.watermelonMolecule[0]
+                    naturalProduct: response.entity._embedded.watermelonMolecules[0]
                 });
             },
             (error) => {
@@ -72,9 +72,8 @@ export default class NaturalProductCompoundCard extends React.Component {
                 "synonyms", //TODO add concentrations and plant part
                 "molecular_properties",
                 "molecular_descriptors",
-                "references",
-                "chemical_classification",
                 "cross_references"
+
 
 
             ];
@@ -83,10 +82,8 @@ export default class NaturalProductCompoundCard extends React.Component {
             return (
                 <Container>
                     <Row>
-                        <Col sm={3}>
-                            <NavigationSidebar navigationItems={compoundCardItems} />
-                        </Col>
-                        <Col sm={9}>
+
+                        <Col sm={12}>
                             <Row id={compoundCardItems[0]} className="compoundCardRow">
                                 <Overview naturalProduct={naturalProduct}/>
                             </Row>
@@ -95,10 +92,7 @@ export default class NaturalProductCompoundCard extends React.Component {
                                 <Representations naturalProduct={naturalProduct}/>
                             </Row>
                             <br/>
-                            <Row id={compoundCardItems[2]} className="compoundCardRow">
-                                <Synonyms naturalProduct={naturalProduct}/>
-                            </Row>
-                            <br/>
+                            
                             <Row id={compoundCardItems[3]} className="compoundCardRow">
                                 <MolecularProperties naturalProduct={naturalProduct}/>
                             </Row>
@@ -107,22 +101,20 @@ export default class NaturalProductCompoundCard extends React.Component {
                             <Row id={compoundCardItems[5]} className="compoundCardRow">
                                 <MolecularDescriptors naturalProduct={naturalProduct}/>
                             </Row>
-
-
-                            <br/>
-                            <Row id={compoundCardItems[7]} className="compoundCardRow">
-                                <References naturalProduct={naturalProduct}/>
-                            </Row>
-                            <br/>
-                            <Row id={compoundCardItems[8]} className="compoundCardRow">
-                                <ChemClassification naturalProduct={naturalProduct}/>
-                            </Row>
                             <br/>
 
-                            <Row id={compoundCardItems[9]} className="compoundCardRow">
+                            <Row id={compoundCardItems[6]} className="compoundCardRow">
                                 <CrossReferences naturalProduct={naturalProduct}/>
                             </Row>
                             <br/>
+                            
+
+                            <Row id={compoundCardItems[2]} className="compoundCardRow">
+                                <Synonyms naturalProduct={naturalProduct}/>
+                            </Row>
+                            <br/>
+
+
                         </Col>
                     </Row>
                 </Container>

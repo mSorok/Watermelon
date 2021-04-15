@@ -17,87 +17,144 @@ export default class CrossReferences extends React.Component {
 
         const naturalProduct = this.props.naturalProduct;
 
+        let chebilink = "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=";
+        let kegglink = "https://www.genome.jp/dbget-bin/www_bget?";
+        let lipidmapslink = "https://www.lipidmaps.org/data/LMSDRecord.php?LMID=";
+        let hmdblink = "https://hmdb.ca/metabolites/";
+        let pubchemlink = "https://pubchem.ncbi.nlm.nih.gov/compound/";
+        let foodblink = "https://foodb.ca/compounds/";
 
-        let nbXref = 0 ;
-        if(naturalProduct.clean_xrefs != null) {
-            nbXref = naturalProduct.clean_xrefs.length;
+        let kegg = naturalProduct.kegg;
+        let lipidmaps = naturalProduct.lipidmaps;
+        let hmdb = naturalProduct.hmdb;
+        let pubchem = naturalProduct.pubchem;
+        let chebi = naturalProduct.chebi;
+        let foodb = naturalProduct.foodb;
+
+
+        let linksToSources = [];
+
+        if (kegg != null && kegg != "") {
+            const buttonToSource =
+                <Button id={"linkTo_kegg"} variant="outline-primary" size="sm" href={kegglink + kegg} target="_blank">
+                    <FontAwesomeIcon icon="external-link-alt" fixedWidth/>
+                </Button>;
+
+            linksToSources.push(
+                <tr key={"ref_kegg"}>
+                    <td>KEGG</td>
+                    <td>{buttonToSource}</td>
+                </tr>
+            );
         }
 
-        const found_in_databases = naturalProduct.found_in_databases.join(", ");
+        if (chebi != null && chebi != "") {
+            const buttonToSource =
+                <Button id={"linkTo_chebi"} variant="outline-primary" size="sm" href={chebilink + chebi} target="_blank">
+                    <FontAwesomeIcon icon="external-link-alt" fixedWidth/>
+                </Button>;
+
+            linksToSources.push(
+                <tr key={"ref_chebi"}>
+                    <td>ChEBI</td>
+                    <td>{buttonToSource}</td>
+                </tr>
+            );
+        }
+
+        if (lipidmaps != null && lipidmaps != "") {
+            const buttonToSource =
+                <Button id={"linkTo_lipidmaps"} variant="outline-primary" size="sm" href={lipidmapslink + lipidmaps} target="_blank">
+                    <FontAwesomeIcon icon="external-link-alt" fixedWidth/>
+                </Button>;
+
+            linksToSources.push(
+                <tr key={"ref_lipidmaps"}>
+                    <td>LipidMaps</td>
+                    <td>{buttonToSource}</td>
+                </tr>
+            );
+        }
+
+        if (pubchem != null && pubchem != "") {
+            const buttonToSource =
+                <Button id={"linkTo_pubchem"} variant="outline-primary" size="sm" href={pubchemlink + pubchem} target="_blank">
+                    <FontAwesomeIcon icon="external-link-alt" fixedWidth/>
+                </Button>;
+
+            linksToSources.push(
+                <tr key={"ref_pubchem"}>
+                    <td>PubChem</td>
+                    <td>{buttonToSource}</td>
+                </tr>
+            );
+        }
+
+        if (hmdb != null && hmdb != "") {
+            const buttonToSource =
+                <Button id={"linkTo_hmdb"} variant="outline-primary" size="sm" href={hmdblink + hmdb} target="_blank">
+                    <FontAwesomeIcon icon="external-link-alt" fixedWidth/>
+                </Button>;
+
+            linksToSources.push(
+                <tr key={"ref_hmdb"}>
+                    <td>HMDB</td>
+                    <td>{buttonToSource}</td>
+                </tr>
+            );
+        }
+
+        if (foodb != null && foodb != "") {
+            const buttonToSource =
+                <Button id={"linkTo_foodb"} variant="outline-primary" size="sm" href={foodblink + foodb} target="_blank">
+                    <FontAwesomeIcon icon="external-link-alt" fixedWidth/>
+                </Button>;
+
+            linksToSources.push(
+                <tr key={"ref_foodb"}>
+                    <td>FooDB</td>
+                    <td>{buttonToSource}</td>
+                </tr>
+            );
+        }
 
 
+        if (linksToSources.length == 0) {
+            return (
 
-        if (nbXref===0) {
-            return(
                 <Card className="compoundCardItem">
                     <Card.Body>
                         <Card.Title className="text-primary">Cross References</Card.Title>
-                        <br />
-                        <p>This compound is not present in a currently existing database.</p>
-                        <p>It was retrieved from the following collection(s): {found_in_databases}</p>
+                        <br/>
+
+                        <p>No know cross-references</p>
                     </Card.Body>
                 </Card>
             );
         } else {
 
 
-            let dic = {};
-            for(let i=0; i<naturalProduct.clean_xrefs.length; i++){
 
-                let xref = naturalProduct.clean_xrefs[i];
-                //clean_xref = {"source": source_pretty_names[xref[0]], "id_in_source": xref[1], "link_to_source": xref[2]}
-                let source = xref.source;
-                let linkToSource = xref.link_to_source + xref.id_in_source;
-
-                dic[linkToSource] = source;
-
-            }
-
-            console.log(dic);
-
-            let linksToSources = [];
-            //for(let i=0; i<naturalProduct.clean_xrefs.length; i++){
-            for(let linkToSource in dic){
-
-/*                let xref = naturalProduct.clean_xrefs[i];
-                //clean_xref = {"source": source_pretty_names[xref[0]], "id_in_source": xref[1], "link_to_source": xref[2]}
-                let source = xref.source;
-                let linkToSource = xref.link_to_source + xref.id_in_source;*/
-
-                const buttonToSource =
-                    <Button id={"linkTo_" + linkToSource} variant="outline-primary" size="sm" href={linkToSource} target="_blank">
-                        <FontAwesomeIcon icon="external-link-alt" fixedWidth/>
-                    </Button>;
-
-                linksToSources.push(
-                    <tr key={"ref_"+linkToSource}>
-                        <td>{dic[linkToSource]}</td>
-                        <td>{buttonToSource}</td>
-                    </tr>
-                );
-
-            }
-
-            return (
-                <Card className="compoundCardItem">
-                    <Card.Body>
-                        <Card.Title className="text-primary">Cross References</Card.Title>
-                        <br/>
-                        <Table size="sm">
-                            <thead>
-                            <tr>
-                                <th>Database</th>
-                                <th>Link to reference</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            {linksToSources}
-                            </tbody>
-                        </Table>
-                    </Card.Body>
-                </Card>
-            );
-        }
+        return (
+            <Card className="compoundCardItem">
+                <Card.Body>
+                    <Card.Title className="text-primary">Cross References</Card.Title>
+                    <br/>
+                    <Table size="sm">
+                        <thead>
+                        <tr>
+                            <th>Database</th>
+                            <th>External link</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {linksToSources}
+                        </tbody>
+                    </Table>
+                </Card.Body>
+            </Card>
+        );
+    }
     }
 }
 

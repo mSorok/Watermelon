@@ -125,6 +125,8 @@ public class ReadTSV {
                             if (item.toLowerCase().contains("afc_id")){ indexOfAfc = header.indexOf(item); }
                             if (item.toLowerCase().contains("smiles")){ indexOfOriSmiles = header.indexOf(item); } //is the original smiles
                         }
+                        System.out.println(header);
+                        System.out.println(indexOfOriSmiles);
 
 
                         //read the rest of the file

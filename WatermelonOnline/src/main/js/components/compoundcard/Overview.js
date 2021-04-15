@@ -46,15 +46,15 @@ export default class Overview extends React.Component {
 
         let starsAnnotation = [];
 
-        if(naturalProduct.annotationLevel==0){
-            starsAnnotation.push("not annotated yet");
-        }else {
-            //starsAnnotation = "";
-            for (let i = 0; i < naturalProduct.annotationLevel; i++) {
-                //starsAnnotation += "*";
-                starsAnnotation.push(<td key={"star"+i} style={{width:22}} ><FontAwesomeIcon icon={"star"} fixedWidth color="#f29a1f"/></td> );
-            }
+
+
+        let name = "no name available";
+        if(naturalProduct.compoundName != null && naturalProduct.compoundName != "" ) {
+
+            name = Utils.capitalize(naturalProduct.compoundName.replace(/_/g, " "));
         }
+
+
 
         return (
             <Card className="compoundCardItem">
@@ -70,16 +70,16 @@ export default class Overview extends React.Component {
                                 <tbody>
                                 <tr>
                                     <td>Name</td>
-                                    <td>{naturalProduct.name ? naturalProduct.name : "no name available"}</td>
+                                    <td>{name}</td>
                                 </tr>
                                 <tr>
                                     <td>Mol. formula</td>
-                                    <td>{naturalProduct.molecular_formula || naturalProduct.molecularFormula}</td>
+                                    <td>{naturalProduct.molecularFormula || naturalProduct.molecular_formula}</td>
                                 </tr>
                                 {cas_registry_num}
                                 <tr>
                                     <td>Mol. weight</td>
-                                    <td>{ Math.round((naturalProduct.molecular_weight + Number.EPSILON) * 10000) / 10000 || Math.round((naturalProduct.molecular_weight + Number.EPSILON) * 10000) / 10000}</td>
+                                    <td>{ Math.round((naturalProduct.molecular_weight + Number.EPSILON) * 10000) / 10000 || Math.round((naturalProduct.molecularWeight + Number.EPSILON) * 10000) / 10000}</td>
                                 </tr>
 
                                 </tbody>

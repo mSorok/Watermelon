@@ -9,7 +9,7 @@ export default class  Synonyms  extends React.Component {
     render() {
         const naturalProduct = this.props.naturalProduct;
 
-        const nbSynonyms = naturalProduct.synonyms.length;
+        const nbSynonyms = naturalProduct.alternativeNames.length;
 
         let synonymsList = [];
 
@@ -24,11 +24,11 @@ export default class  Synonyms  extends React.Component {
                 </Card>
             );
         }else {
-            for(let i=0; i<naturalProduct.synonyms.length; i++) {
+            for(let i=0; i<naturalProduct.alternativeNames.length; i++) {
 
                 synonymsList.push(
                     <tr key={i+"_synonyms"}>
-                        <td>{naturalProduct.synonyms[i]}</td>
+                        <td>{naturalProduct.alternativeNames[i]}</td>
                     </tr>
                 );
 

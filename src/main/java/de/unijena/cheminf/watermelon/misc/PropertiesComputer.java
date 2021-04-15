@@ -527,6 +527,7 @@ public class PropertiesComputer {
         AtomContainerManipulator acm = new AtomContainerManipulator();
 
 
+
         // count rings
         try {
             IRingSet rs = arf.findAllRings(ac, 20);
@@ -575,6 +576,18 @@ public class PropertiesComputer {
         AllRingsFinder arf = new AllRingsFinder();
         MolecularFormulaManipulator mfm = new MolecularFormulaManipulator();
         AtomContainerManipulator acm = new AtomContainerManipulator();
+
+        wm.setTotal_atom_number(ac.getAtomCount());
+
+        int heavyAtomCount = 0;
+        for(IAtom a : ac.atoms()){
+            if(!a.getSymbol().equals("H")){
+                heavyAtomCount=heavyAtomCount+1;
+            }
+        }
+        wm.setHeavy_atom_number(heavyAtomCount);
+
+
 
 
         // count rings

@@ -92,7 +92,7 @@ public class FixIdentifiers {
         for(WatermelonMolecule unp : allunp){
 
 
-            String afc_id = prefix + StringUtils.repeat("0", 7-StringUtils.length(count)) + count;
+            String afc_id = prefix + StringUtils.repeat("0", 6-StringUtils.length(count)) + count;
 
             unp.setAfc_id(afc_id);
 
@@ -113,7 +113,7 @@ public class FixIdentifiers {
         for(WatermelonMolecule unp : allunp){
 
 
-            String afc_id = prefix + StringUtils.repeat("0", 7-StringUtils.length(count)) + count;
+            String afc_id = prefix + StringUtils.repeat("0", 6-StringUtils.length(count)) + count;
 
             unp.setAfc_id(afc_id);
 
@@ -149,7 +149,7 @@ public class FixIdentifiers {
 
         max_id+=1;
         for(WatermelonMolecule ildnp : unpWithoutId){
-            String afc_id = prefix + StringUtils.repeat("0", 7-StringUtils.length(max_id)) + max_id;
+            String afc_id = prefix + StringUtils.repeat("0", 6-StringUtils.length(max_id)) + max_id;
             ildnp.setAfc_id(afc_id);
             System.out.println("New AFC id: "+afc_id);
             watermelonMoleculeRepository.save(ildnp);

@@ -1,5 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
+import Utils from "../../Utils";
 
 const React = require("react");
 
@@ -7,6 +8,11 @@ const React = require("react");
 export default class Representations extends React.Component {
     render() {
         const naturalProduct = this.props.naturalProduct;
+        let name = "no name available";
+        if(naturalProduct.compoundName != null && naturalProduct.compoundName != "" ) {
+
+            name = Utils.capitalize(naturalProduct.compoundName.replace(/_/g, " "));
+        }
 
         return (
             <Card className="compoundCardItem">
@@ -16,16 +22,16 @@ export default class Representations extends React.Component {
                     <Table responsive bordered hover size="sm" >
                         <tbody>
                         <tr key={"represent_id"}>
-                            <td>COCONUT id</td>
-                            <td>{naturalProduct.coconut_id}</td>
+                            <td>AFC id</td>
+                            <td>{naturalProduct.afc_id}</td>
                         </tr>
                         <tr key={"represent_name"}>
                             <td>Name</td>
-                            <td>{naturalProduct.name}</td>
+                            <td>{name}</td>
                         </tr>
                         <tr key={"represent_iupac"}>
                             <td>IUPAC name</td>
-                            <td>{naturalProduct.iupac_name}</td>
+                            <td>{naturalProduct.iupacName}</td>
                         </tr>
                         <tr  key={"represent_inchi"}>
                             <td>InChI</td>
@@ -37,7 +43,7 @@ export default class Representations extends React.Component {
                         </tr>
                         <tr  key={"represent_csmiles"}>
                             <td>Canonical SMILES (CDK)</td>
-                            <td>{naturalProduct.unique_smiles || naturalProduct.clean_smiles }</td>
+                            <td>{naturalProduct.unique_smiles || naturalProduct.original_smiles }</td>
                         </tr>
                         <tr key={"represent_dsmiles"}>
                             <td>Deep SMILES</td>

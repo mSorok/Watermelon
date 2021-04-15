@@ -56,6 +56,12 @@ public class WatermelonApplication  implements CommandLineRunner {
     @Autowired
     FixIdentifiers fixIdentifiers;
 
+    @Autowired
+    MiscFix miscFix;
+
+    @Autowired
+    CompoundUnification compoundUnification;
+
 
     public static void main(String[] args) {
         SpringApplication.run(WatermelonApplication.class, args);
@@ -64,7 +70,8 @@ public class WatermelonApplication  implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        mongoTemplate.getDb().drop();
+
+        //mongoTemplate.getDb().drop();
 
 
         //read TSV file with watermelon molecules
@@ -79,7 +86,7 @@ public class WatermelonApplication  implements CommandLineRunner {
         ArrayList<IAtomContainer> watermelonAC = moleculesUnifier.joinTwoListsOfAtomContainers(watermelonUSDA, watermelonLOTUS);
         System.out.println(watermelonAC.size());
         System.out.println("done");*/
-
+/*
         System.out.println("Reading files in "+args[0]);
         readTSV.readFromDirectoryAndInsertInMongo(args[0]);
 
@@ -94,9 +101,13 @@ public class WatermelonApplication  implements CommandLineRunner {
         moleculeCurator.doWork();
         fixIdentifiers.createIDforNewMolecules();
 
+        miscFix.aprilFix();
+*/
+        compoundUnification.eliminateIdenticalMolecules();
+
         System.out.println("writing to file");
 
-        writeWMolecule.writeFromDatabase(new File("data/curated_watermelon_molecules_20213003.tsv"));
+        writeWMolecule.writeFromDatabase(new File("data/curated_watermelon_molecules_20211504.tsv"));
 
 
         /*writeWMolecule.writeAllToFile(watermelonMolecules, new File("data/curated_watermelon_molecules.tsv"));

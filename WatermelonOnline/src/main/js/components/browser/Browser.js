@@ -123,8 +123,7 @@ export default class Browser extends React.Component {
                 }).then(
 
                     (response) => {
-                        console.log(response);
-                        console.log(response.entity._embedded.watermelonMolecules);
+
                         this.setState({
                             data: {
                                 isLoaded: true,
@@ -135,7 +134,6 @@ export default class Browser extends React.Component {
                                 totalPageCount: response.entity.page.totalPages
                             }
                         });
-                        console.log(this.state.data.result);
                     },
                     (error) => {
                         this.setState({

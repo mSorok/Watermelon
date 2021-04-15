@@ -9,7 +9,7 @@ const React = require("react");
 
 export default class NaturalProductCardItem extends React.Component {
     render() {
-        const linkToCompoundPage = "/compound/coconut_id/" + this.props.naturalProduct.afc_id;
+        const linkToCompoundPage = "/compound/afc_id/" + this.props.naturalProduct.afc_id;
         const structure = Utils.drawMoleculeBySmiles(this.props.naturalProduct.unique_smiles);
 
         //TODO either here (test for Tanimoto field), either create a Tanimoto card
@@ -29,6 +29,12 @@ export default class NaturalProductCardItem extends React.Component {
             cardTitle = <Card.Link href={linkToCompoundPage} className="cardItemHeadline">{this.props.naturalProduct.afc_id}</Card.Link>;
         }
 
+        let name = "no name available";
+        if(this.props.naturalProduct.compoundName != null && this.props.naturalProduct.compoundName != "" ) {
+
+            name = Utils.capitalize(this.props.naturalProduct.compoundName.replace(/_/g, " "));
+        }
+
 
         return (
             <Card className="cardBrowserItem">
@@ -37,7 +43,7 @@ export default class NaturalProductCardItem extends React.Component {
                     <Card.Title>
                         {cardTitle}
                     </Card.Title>
-                    <Card.Subtitle>{this.props.naturalProduct.compoundName ? this.props.naturalProduct.compoundName : "no name available"}</Card.Subtitle>
+                    <Card.Subtitle>{name}</Card.Subtitle>
                     <Table>
                         <tbody>
                         <tr>
@@ -46,7 +52,7 @@ export default class NaturalProductCardItem extends React.Component {
                         </tr>
                         <tr>
                             <td>Mol. weight</td>
-                            <td>{ Math.round((this.props.naturalProduct.molecularWeight + Number.EPSILON)  * 100) / 100 }</td>
+                            <td>{ Math.round((this.props.naturalProduct.molecular_weight + Number.EPSILON)  * 100) / 100 }</td>
                         </tr>
 
                         </tbody>
