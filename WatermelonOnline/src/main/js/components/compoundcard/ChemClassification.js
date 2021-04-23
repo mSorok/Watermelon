@@ -49,13 +49,13 @@ export default class ChemClassification extends React.Component {
 
         let classTable = [];
 
-        if (naturalProduct.chemicalSuperClass == "" && naturalProduct.chemicalClass == "" && naturalProduct.chemicalSubClass=="" && naturalProduct.directParentClassification =="") {
+        if (naturalProduct.chemicalTaxonomyNPclassifierClass == "" && naturalProduct.chemicalTaxonomyNPclassifierSuperclass == "" && naturalProduct.chemicalTaxonomyNPclassifierPathway=="") {
 
             return(
                 <Card className="compoundCardItem">
                     <Card.Body>
                         <Card.Title className="text-primary">Chemical classification</Card.Title>
-                        <Card.Subtitle size="sm"><FontAwesomeIcon icon="info" fixedWidth/>Computed with <a target="_blank" rel="noopener noreferrer"  href="http://classyfire.wishartlab.com/">ClassyFire</a></Card.Subtitle>
+                        <Card.Subtitle size="sm"><FontAwesomeIcon icon="info" fixedWidth/>Computed with <a target="_blank" rel="noopener noreferrer"  href="https://npclassifier.ucsd.edu/">NP Classifier</a></Card.Subtitle>
                         <br />
                         <p>No chemical classification seems to exist for this compound</p>
                     </Card.Body>
@@ -65,70 +65,132 @@ export default class ChemClassification extends React.Component {
 
             //TODO links to the API to retrieve all with this classification
 
-            if (naturalProduct.chemicalSuperClass != "" &&  naturalProduct.chemicalSuperClass != "NaN" ) {
-                classTable.push(
-                    <tr key={"sc_cclass"}>
-                        <td>Super class</td>
+            if (naturalProduct.chemicalTaxonomyNPclassifierPathway != "" &&  naturalProduct.chemicalTaxonomyNPclassifierPathway != "NaN" ) {
 
-                        <td><Button style={{fontSize: 12}} size="xs" variant="link" onClick={(e) => this.handleSearchSubmit(e, naturalProduct.chemicalSuperClass)} >{naturalProduct.chemicalSuperClass}&nbsp;<FontAwesomeIcon icon="search-plus" fixedWidth/></Button></td>
-                    </tr>
-                );
+                if(naturalProduct.chemicalTaxonomyNPclassifierPathway.includes(";")){
+                    let longer_line = "";
+                    let tcc = naturalProduct.chemicalTaxonomyNPclassifierPathway.split("; ");
+                    for(let z=0; z<tcc.length; z++){
+                        longer_line+=<Button style={{fontSize: 12}} size="xs" variant="link"
+                                             onClick={(e) => this.handleSearchSubmit(e, tcc[z])}>{tcc[z]}&nbsp;
+                            <FontAwesomeIcon icon="search-plus" fixedWidth/></Button>;
+                    }
+
+                    classTable.push(
+                        <tr key={"sc_cpath"}>
+                            <td>Pathway</td>
+
+                            <td>{longer_line}</td>
+                        </tr>
+                    );
+
+
+
+                }else {
+
+                    classTable.push(
+                        <tr key={"sc_cpath"}>
+                            <td>Pathway</td>
+
+                            <td><Button style={{fontSize: 12}} size="xs" variant="link"
+                                        onClick={(e) => this.handleSearchSubmit(e, naturalProduct.chemicalTaxonomyNPclassifierPathway)}>{naturalProduct.chemicalTaxonomyNPclassifierPathway}&nbsp;
+                                <FontAwesomeIcon icon="search-plus" fixedWidth/></Button></td>
+                        </tr>
+                    );
+                }
             } else {
                 classTable.push(
-                    <tr key={"sc_cclass"}>
-                        <td>Super class</td>
+                    <tr key={"sc_cpath"}>
+                        <td>Pathway</td>
+                        <td>No known pathway</td>
+                    </tr>
+                );
+            }
+
+            if (naturalProduct.chemicalTaxonomyNPclassifierSuperclass != "" && naturalProduct.chemicalTaxonomyNPclassifierSuperclass != "NaN" ) {
+
+
+                    if(naturalProduct.chemicalTaxonomyNPclassifierSuperclass.includes(";")){
+                        let longer_line = "";
+                        let tcc = naturalProduct.chemicalTaxonomyNPclassifierSuperclass.split("; ");
+                        for(let z=0; z<tcc.length; z++){
+                            longer_line+=<Button style={{fontSize: 12}} size="xs" variant="link"
+                                                 onClick={(e) => this.handleSearchSubmit(e, tcc[z])}>{tcc[z]}&nbsp;
+                                <FontAwesomeIcon icon="search-plus" fixedWidth/></Button>;
+                        }
+
+                        classTable.push(
+                            <tr key={"sc_sclass"}>
+                                <td>Superclass</td>
+
+                                <td>{longer_line}</td>
+                            </tr>
+                        );
+
+
+
+                    }else {
+
+                        classTable.push(
+                            <tr key={"cc_sclass"}>
+                                <td>Superclass</td>
+                                <td><Button style={{fontSize: 12}} size="xs" variant="link"
+                                            onClick={(e) => this.handleSearchSubmit(e, naturalProduct.chemicalTaxonomyNPclassifierSuperclass)}>{naturalProduct.chemicalTaxonomyNPclassifierSuperclass}&nbsp;
+                                    <FontAwesomeIcon icon="search-plus" fixedWidth/></Button></td>
+                            </tr>
+                        );
+                    }
+            } else {
+                classTable.push(
+                    <tr key={"cc_sclass"}>
+                        <td>Superclass</td>
                         <td>No known superclass</td>
                     </tr>
                 );
             }
 
-            if (naturalProduct.chemicalClass != "" && naturalProduct.chemicalClass != "NaN" ) {
-                classTable.push(
-                    <tr key={"cc_cclass"}>
-                        <td>Class</td>
-                        <td><Button style={{fontSize: 12}} size="xs" variant="link" onClick={(e) => this.handleSearchSubmit(e, naturalProduct.chemicalClass)} >{naturalProduct.chemicalClass}&nbsp;<FontAwesomeIcon icon="search-plus" fixedWidth/></Button></td>
-                    </tr>
-                );
+            if (naturalProduct.chemicalTaxonomyNPclassifierClass != "" && naturalProduct.chemicalTaxonomyNPclassifierClass != "NaN") {
+
+
+                    if (naturalProduct.chemicalTaxonomyNPclassifierClass.includes(";")) {
+                        let longer_line = "";
+                        let tcc = naturalProduct.chemicalTaxonomyNPclassifierClass.split("; ");
+                        for (let z = 0; z < tcc.length; z++) {
+                            longer_line += <Button style={{fontSize: 12}} size="xs" variant="link"
+                                                   onClick={(e) => this.handleSearchSubmit(e, tcc[z])}>{tcc[z]}&nbsp;
+                                <FontAwesomeIcon icon="search-plus" fixedWidth/></Button>;
+                        }
+
+                        classTable.push(
+                            <tr key={"sc_cclass"}>
+                                <td>Class</td>
+
+                                <td>{longer_line}</td>
+                            </tr>
+                        );
+
+
+                    } else {
+
+                    classTable.push(
+                        <tr key={"sbc_cclass"}>
+                            <td>Class</td>
+                            <td><Button style={{fontSize: 12}} size="xs" variant="link"
+                                        onClick={(e) => this.handleSearchSubmit(e, naturalProduct.chemicalTaxonomyNPclassifierClass)}>{naturalProduct.chemicalTaxonomyNPclassifierClass}&nbsp;
+                                <FontAwesomeIcon icon="search-plus" fixedWidth/></Button></td>
+                        </tr>
+                    );
+                }
             } else {
                 classTable.push(
-                    <tr key={"cc_cclass"}>
+                    <tr key={"sbc_cclass"}>
                         <td>Class</td>
                         <td>No known class</td>
                     </tr>
                 );
             }
 
-            if (naturalProduct.chemicalSubClass != "" && naturalProduct.chemicalSubClass != "NaN") {
-                classTable.push(
-                    <tr key={"sbc_cclass"}>
-                        <td>Subclass</td>
-                        <td><Button style={{fontSize: 12}} size="xs" variant="link" onClick={(e) => this.handleSearchSubmit(e, naturalProduct.chemicalSubClass)} >{naturalProduct.chemicalSubClass}&nbsp;<FontAwesomeIcon icon="search-plus" fixedWidth/></Button></td>
-                    </tr>
-                );
-            } else {
-                classTable.push(
-                    <tr key={"sbc_cclass"}>
-                        <td>Subclass</td>
-                        <td>No known subclass</td>
-                    </tr>
-                );
-            }
 
-            if (naturalProduct.directParentClassification != "" && naturalProduct.directParentClassification != "NaN") {
-                classTable.push(
-                    <tr key={"dp_cclass"}>
-                        <td>Direct parent</td>
-                        <td><Button style={{fontSize: 12}} size="xs" variant="link" onClick={(e) => this.handleSearchSubmit(e, naturalProduct.directParentClassification)} >{naturalProduct.directParentClassification}&nbsp;<FontAwesomeIcon icon="search-plus" fixedWidth/></Button></td>
-                    </tr>
-                );
-            } else {
-                classTable.push(
-                    <tr key={"dp_cclass"}>
-                        <td>Direct parent</td>
-                        <td>No known direct parent</td>
-                    </tr>
-                );
-            }
 
 
 
@@ -136,7 +198,7 @@ export default class ChemClassification extends React.Component {
                 <Card className="compoundCardItem">
                     <Card.Body>
                         <Card.Title className="text-primary">Chemical classification</Card.Title>
-                        <Card.Subtitle size="xs"><FontAwesomeIcon icon="info" fixedWidth/>Computed with <a target="_blank" rel="noopener noreferrer"  href="http://classyfire.wishartlab.com/">ClassyFire</a></Card.Subtitle>
+                        <Card.Subtitle size="xs"><FontAwesomeIcon icon="info" fixedWidth/>Computed with <a target="_blank" rel="noopener noreferrer"  href="https://npclassifier.ucsd.edu/">NP Classifier</a></Card.Subtitle>
                         <br />
                         <Table size="sm">
                             <tbody>

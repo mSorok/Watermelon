@@ -1550,41 +1550,6 @@ export default class AdvancedSearch extends React.Component {
 
 
 
-                <h3>Data sources</h3>
-
-                <Form.Group>
-
-
-                    <Form.Row>
-                        <Col>
-                            <Form onChange = {this.handleDBselect}>
-                                <SourcesList/>
-                            </Form>
-                        </Col>
-
-                        <Col md="auto">
-                            <Form.Control name="select-db-all-or" as="select" onChange={this.handleDBSelectAllOne}>
-                                <option value="OR">IN AT LEAST ONE</option>
-                                <option value="AND">IN ALL</option>
-
-                            </Form.Control>
-                            <Form.Text className="text-muted">Select if query present in ALL the selected databases or in AT LEAST ONE</Form.Text>
-                        </Col>
-
-                        <Col md="auto">
-                            <Form.Control name="select-db-and-or" as="select" onChange={this.handleDBSelectLogic}>
-                                <option value="AND">AND</option>
-                                <option value="OR">OR</option>
-                            </Form.Control>
-                            <Form.Text className="text-muted">Select if this criteria adds to others with AND or with OR</Form.Text>
-                        </Col>
-
-
-
-                    </Form.Row>
-
-
-                </Form.Group>
 
 
 

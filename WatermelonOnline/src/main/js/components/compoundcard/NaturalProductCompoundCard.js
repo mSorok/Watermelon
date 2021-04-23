@@ -17,6 +17,7 @@ import ChemClassification from "./ChemClassification";
 import PredictedActivity from "./PredictedActivity";
 import Organisms from "./Organisms";
 import Geography from "./Geography";
+import CompoundLevels from "./CompoundLevels";
 
 const React = require("react");
 const restClient = require("../../restClient");
@@ -72,6 +73,7 @@ export default class NaturalProductCompoundCard extends React.Component {
                 "synonyms", //TODO add concentrations and plant part
                 "molecular_properties",
                 "molecular_descriptors",
+                "predicted_bioactivities",
                 "cross_references"
 
 
@@ -98,13 +100,25 @@ export default class NaturalProductCompoundCard extends React.Component {
                             </Row>
 
                             <br/>
+                            
+                            <Row id="compound_levels" className="compoundCardRow">
+                                <CompoundLevels naturalProduct={naturalProduct}/>
+                            </Row>
+                            <br/>
+
+                            <Row id="chemical_classification" className="compoundCardRow">
+                                <ChemClassification naturalProduct={naturalProduct}/>
+                            </Row>
+                            <br/>
+
                             <Row id={compoundCardItems[5]} className="compoundCardRow">
                                 <MolecularDescriptors naturalProduct={naturalProduct}/>
                             </Row>
                             <br/>
 
+
                             <Row id={compoundCardItems[6]} className="compoundCardRow">
-                                <CrossReferences naturalProduct={naturalProduct}/>
+                                <PredictedActivity naturalProduct={naturalProduct}/>
                             </Row>
                             <br/>
                             

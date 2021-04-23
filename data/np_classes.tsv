@@ -1,30 +1,112 @@
 afc_id	class	pathway	superclass
+AFC001833	Amino acids and Peptides
+AFC001834	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001835	Gibberellins	Terpenoids	Diterpenoids
+AFC001836	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
+AFC001837	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001838	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001839	Piperidine alkaloids	Alkaloids	Lysine alkaloids
+AFC001840	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Fatty Acids and Conjugates;Small peptides
+AFC001841	Aminoacids	Amino acids and Peptides	Small peptides
+AFC001842
+AFC001843	Simple amide alkaloids	Alkaloids	Peptide alkaloids
+AFC001844	Pyridine alkaloids	Alkaloids	Nicotinic acid alkaloids
+AFC001845	Alkaloids
+AFC001846	Aminoacids	Amino acids and Peptides	Small peptides
+AFC001847	Alkaloids
+AFC001849	Shikimic acids and derivatives	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001850	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
+AFC001851	Aminoacids	Amino acids and Peptides	Small peptides
+AFC001852	Aminoacids	Amino acids and Peptides	Small peptides
+AFC001853	Cinnamic acids and derivatives;Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1);Phenylpropanoids (C6-C3)
+AFC001854	Imidazole alkaloids	Alkaloids	Histidine alkaloids
+AFC001855	Simple coumarins	Shikimates and Phenylpropanoids	Coumarins
+AFC001856	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
+AFC001858	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
+AFC001859	Purine alkaloids	Alkaloids	Pseudoalkaloids
+AFC001861	Dipeptides	Amino acids and Peptides	Small peptides
+AFC001862	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
+AFC001863	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
+AFC001864	Purine alkaloids	Alkaloids	Pseudoalkaloids
+AFC001865	Aminoacids	Amino acids and Peptides	Small peptides
+AFC001866	Shikimic acids and derivatives;Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001867	Pyridine alkaloids	Alkaloids	Nicotinic acid alkaloids
+AFC001868	Aminoacids	Amino acids and Peptides	Small peptides
+AFC001869	Dipeptides	Amino acids and Peptides	Small peptides
+AFC001871	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
+AFC001872	Simple coumarins	Shikimates and Phenylpropanoids	Coumarins
+AFC001874	Acridone alkaloids	Alkaloids	Anthranilic acid alkaloids
+AFC001875	Lactones	Fatty acids	Fatty esters
+AFC001876	Alkaloids	Anthranilic acid alkaloids
+AFC001877	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
+AFC001879	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001880	Lactones	Fatty acids	Fatty esters
+AFC001881	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
+AFC001882	Aminoacids	Amino acids and Peptides	Small peptides
+AFC001883	Purine alkaloids	Alkaloids	Pseudoalkaloids
+AFC001884	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001885	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001886	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001887	Pyrimidine nucleos(t)ides	Carbohydrates	Nucleosides
+AFC001889	Aminoacids	Amino acids and Peptides	Small peptides
+AFC001890	Chalcones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001891	Hydrocarbons	Fatty acids	Fatty acyls
+AFC001892	Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
+AFC001893	Purine nucleos(t)ides	Carbohydrates	Nucleosides
+AFC001894	Flavan-3-ols	Shikimates and Phenylpropanoids	Flavonoids
+AFC001896	Other Octadecanoids	Fatty acids	Octadecanoids
+AFC001897	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001898	Purine nucleos(t)ides	Carbohydrates	Nucleosides
+AFC001899	Abietane diterpenoids	Terpenoids	Diterpenoids
+AFC001900	Monoacylglycerols	Fatty acids	Glycerolipids
+AFC001902	Pyridine alkaloids	Alkaloids	Nicotinic acid alkaloids
+AFC001903	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
+AFC001904	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001905	Disaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC001906	Simple coumarins	Shikimates and Phenylpropanoids	Coumarins
+AFC001907	Megastigmanes	Terpenoids	Apocarotenoids
+AFC001908	Iridoids monoterpenoids	Terpenoids	Monoterpenoids
+AFC001910	Purine nucleos(t)ides	Carbohydrates	Nucleosides
+AFC001911	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001912	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001915	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001916	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001917	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001922	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001923	Flavonols	Shikimates and Phenylpropanoids	Flavonoids
+AFC001927	Polyamines	Alkaloids	Ornithine alkaloids
+AFC001928	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
+AFC001929	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001930	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001932	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001934	Flavonols	Shikimates and Phenylpropanoids	Flavonoids
+AFC001935	Pregnane steroids	Terpenoids	Steroids
+AFC001936	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
 AFC000002	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
-AFC000003	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000004	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000005	Branched fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000006	Branched fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000007	Dicarboxylic acids	Fatty acids	Fatty Acids and Conjugates
 AFC000008
 AFC000009	Branched fatty acids;Oxo fatty acids	Fatty acids	Fatty Acids and Conjugates
-AFC000010	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000012	Pyridine alkaloids	Alkaloids	Nicotinic acid alkaloids
 AFC000013	Oxo fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000014	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC000015	Aminoacids;Dipeptides	Amino acids and Peptides	Small peptides
 AFC000016	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Small peptides;Fatty Acids and Conjugates
 AFC000017	Polyamines	Alkaloids	Ornithine alkaloids
-AFC000018	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000019	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000020	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Small peptides;Fatty Acids and Conjugates
 AFC000024	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
 AFC000026	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
 AFC000027	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
+AFC000028	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000029	Monosaccharides	Carbohydrates	Saccharides
 AFC000030	Alkaloids	Nicotinic acid alkaloids
 AFC000031
 AFC000034	Aminoacids	Amino acids and Peptides	Small peptides
-AFC000035	Monosaccharides	Carbohydrates	Saccharides
+AFC000036	Aminoacids	Amino acids and Peptides	Small peptides
+AFC000037	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000038	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000039	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000040	Chalcones	Shikimates and Phenylpropanoids	Flavonoids
@@ -41,7 +123,6 @@ AFC000062	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000063	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
 AFC000065	Thia fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000067	Fatty aldehydes	Fatty acids	Fatty acyls
-AFC000068	Dipeptides	Amino acids and Peptides	Small peptides
 AFC000069	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000070	Oxo fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000071	Polyamines	Alkaloids	Ornithine alkaloids
@@ -51,7 +132,11 @@ AFC000074	Dicarboxylic acids;Hydroxy fatty acids	Fatty acids	Fatty Acids and Con
 AFC000076
 AFC000077	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000078
+AFC000079	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000080	Pyridine alkaloids	Alkaloids	Nicotinic acid alkaloids
+AFC000081	Aminoacids	Amino acids and Peptides	Small peptides
+AFC000082	Aminoacids	Amino acids and Peptides	Small peptides
+AFC000083	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Fatty Acids and Conjugates;Small peptides
 AFC000084	Imidazole alkaloids	Alkaloids	Histidine alkaloids
 AFC000085
 AFC000086	Alkaloids
@@ -66,6 +151,7 @@ AFC000104	Imidazole alkaloids	Alkaloids	Histidine alkaloids
 AFC000105	Pyridine alkaloids	Alkaloids	Nicotinic acid alkaloids
 AFC000106	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000109	Imidazole alkaloids	Alkaloids	Histidine alkaloids
+AFC000110	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Fatty Acids and Conjugates;Small peptides
 AFC000111	Imidazole alkaloids	Alkaloids	Histidine alkaloids
 AFC000112	Dicarboxylic acids	Fatty acids	Fatty Acids and Conjugates
 AFC000113	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
@@ -75,6 +161,7 @@ AFC000116	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
 AFC000117	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000118	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Small peptides;Fatty Acids and Conjugates
 AFC000119	Primary amides	Fatty acids	Fatty amides
+AFC000120	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000121	Oxo fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000122	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000123	Aminoacids	Amino acids and Peptides	Small peptides
@@ -114,19 +201,20 @@ AFC000177	Polyamines	Alkaloids	Ornithine alkaloids
 AFC000178	Dicarboxylic acids	Fatty acids	Fatty Acids and Conjugates
 AFC000182	Amino acids and Peptides
 AFC000183
+AFC000185	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000186	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
+AFC000187	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000188	Pyridine alkaloids	Alkaloids	Nicotinic acid alkaloids
 AFC000189	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
 AFC000191	Alkaloids
+AFC000192	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Fatty Acids and Conjugates;Small peptides
 AFC000193	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
 AFC000194	Fatty acids
 AFC000195	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
-AFC000196
 AFC000197	Dicarboxylic acids	Fatty acids	Fatty Acids and Conjugates
 AFC000198	Shikimates and Phenylpropanoids	Flavonoids
 AFC000199	Menthane monoterpenoids;Monocyclic monoterpenoids	Terpenoids	Monoterpenoids
 AFC000200	Branched fatty acids;Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
-AFC000201	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000202	Acridone alkaloids	Alkaloids	Anthranilic acid alkaloids
 AFC000203	Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000204	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
@@ -147,20 +235,14 @@ AFC000226	Pregnane steroids	Terpenoids	Steroids
 AFC000227	Cholestane steroids	Terpenoids	Steroids
 AFC000229	Monosaccharides	Carbohydrates	Saccharides
 AFC000230	Pyrimidine nucleosides	Carbohydrates	Nucleosides
-AFC000233	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000234	Aminoacids;Phenylethylamines	Alkaloids;Amino acids and Peptides	Small peptides;Tyrosine alkaloids
 AFC000235	Phenylethanoids	Shikimates and Phenylpropanoids	Phenylethanoids (C6-C2)
 AFC000237	Purine nucleotides	Carbohydrates	Nucleosides
-AFC000239	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Small peptides;Fatty Acids and Conjugates
 AFC000240	Androstane steroids	Terpenoids	Steroids
 AFC000244	Disaccharides	Carbohydrates	Saccharides
-AFC000245	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000246	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000247	Pyrimidine nucleosides	Carbohydrates	Nucleosides
 AFC000249	Fatty aldehydes	Fatty acids	Fatty acyls
-AFC000250	Fatty alcohols;Monosaccharides	Carbohydrates;Fatty acids	Fatty acyls;Saccharides
-AFC000251	Disaccharides	Carbohydrates	Saccharides
-AFC000252	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000254	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000255	Fatty alcohols	Fatty acids	Fatty acyls
 AFC000262	Shikimic acids and derivatives;Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
@@ -233,8 +315,6 @@ AFC000341	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
 AFC000342	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000343	Hydrocarbons	Fatty acids	Fatty acyls
 AFC000344	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
-AFC000345	Fatty alcohols;Monosaccharides	Carbohydrates;Fatty acids	Fatty acyls;Saccharides
-AFC000346	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000347	Fatty alcohols	Fatty acids	Fatty acyls
 AFC000348	Shikimic acids and derivatives;Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000349	Dicarboxylic acids	Fatty acids	Fatty Acids and Conjugates
@@ -296,12 +376,10 @@ AFC000420	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
 AFC000421	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000422	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000423
-AFC000424	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000425	Purine nucleosides	Carbohydrates	Nucleosides
 AFC000427	Pyrimidine nucleotides	Carbohydrates	Nucleosides
 AFC000428	Pyrimidine nucleotides	Carbohydrates	Nucleosides
 AFC000429	Pyrimidine nucleotides	Carbohydrates	Nucleosides
-AFC000431	Monosaccharides	Carbohydrates	Saccharides
 AFC000432	Monosaccharides	Carbohydrates	Saccharides
 AFC000433	Dipeptides	Amino acids and Peptides	Small peptides
 AFC000434	Ergostane steroids	Terpenoids	Steroids
@@ -311,7 +389,6 @@ AFC000437	Monosaccharides	Carbohydrates	Saccharides
 AFC000438	Cholestane steroids	Terpenoids	Steroids
 AFC000439	Wax monoesters	Fatty acids	Fatty esters
 AFC000440
-AFC000441	Acyclic monoterpenoids	Terpenoids	Monoterpenoids
 AFC000442	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000443	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
 AFC000444	Fatty alcohols	Fatty acids	Fatty acyls
@@ -323,7 +400,6 @@ AFC000451
 AFC000452	Flavandiols (Leucoanthocyanidins)	Shikimates and Phenylpropanoids	Flavonoids
 AFC000453	N-acyl amines	Fatty acids	Fatty amides
 AFC000454	Oleanane triterpenoids	Terpenoids	Triterpenoids
-AFC000455	Ursane and Taraxastane triterpenoids	Terpenoids	Triterpenoids
 AFC000456	Dihydroflavonols	Shikimates and Phenylpropanoids	Flavonoids
 AFC000457	Oleanane triterpenoids	Terpenoids	Triterpenoids
 AFC000458	Purine nucleotides	Carbohydrates	Nucleosides
@@ -332,7 +408,6 @@ AFC000460	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
 AFC000461	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
 AFC000462	Hydrocarbons	Fatty acids	Fatty acyls
 AFC000463	Monosaccharides	Carbohydrates	Saccharides
-AFC000464	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000465	Tropane alkaloids	Alkaloids	Ornithine alkaloids
 AFC000466	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000467	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
@@ -351,8 +426,6 @@ AFC000482	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC000483	Pregnane steroids	Terpenoids	Steroids
 AFC000484	Cholestane steroids	Terpenoids	Steroids
 AFC000485	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC000486	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
-AFC000487	Pregnane steroids	Terpenoids	Steroids
 AFC000488	Disaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000489	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000491	Iridoids monoterpenoids	Terpenoids	Monoterpenoids
@@ -363,7 +436,6 @@ AFC000495	Cycloartane triterpenoids	Terpenoids	Triterpenoids
 AFC000496	Monosaccharides	Carbohydrates	Saccharides
 AFC000497	Monosaccharides	Carbohydrates	Saccharides
 AFC000498	Fatty acids	Fatty acyls
-AFC000499	Dipeptides	Amino acids and Peptides	Small peptides
 AFC000500	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000501	Purine nucleotides	Carbohydrates	Nucleosides
 AFC000502	Anthranillic acid derivatives	Alkaloids	Anthranilic acid alkaloids
@@ -372,7 +444,6 @@ AFC000504	Cholestane steroids	Terpenoids	Steroids
 AFC000505	Wax monoesters	Fatty acids	Fatty esters
 AFC000507	Monosaccharides;Pyrimidine nucleotides	Carbohydrates	Saccharides;Nucleosides
 AFC000509	Monosaccharides	Carbohydrates	Saccharides
-AFC000511	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000512	Fatty acids
 AFC000513	Wax monoesters	Fatty acids	Fatty esters
 AFC000514	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
@@ -385,30 +456,23 @@ AFC000520	Monosaccharides	Carbohydrates	Saccharides
 AFC000521	Fatty acids
 AFC000522	Cholestane steroids;Ergostane steroids	Terpenoids	Steroids
 AFC000523	Tripeptides	Amino acids and Peptides	Small peptides
-AFC000524	Shikimates and Phenylpropanoids
 AFC000525	Carboline alkaloids	Alkaloids	Tryptophan alkaloids
 AFC000526	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000527	Cyclitols	Carbohydrates	Polyols
 AFC000529	Oleanane triterpenoids	Terpenoids	Triterpenoids
-AFC000530	Monosaccharides	Carbohydrates	Saccharides
 AFC000531	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC000532	Cyclitols	Carbohydrates	Polyols
 AFC000533	Disaccharides	Carbohydrates	Saccharides
 AFC000534	Monosaccharides	Carbohydrates	Saccharides
 AFC000535	Dihydroflavonols	Shikimates and Phenylpropanoids	Flavonoids
 AFC000536	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
-AFC000538	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Small peptides;Fatty Acids and Conjugates
 AFC000539	Pyrimidine nucleotides	Carbohydrates	Nucleosides
-AFC000540	Aminoacids	Amino acids and Peptides	Small peptides
-AFC000541	Monosaccharides	Carbohydrates	Saccharides
 AFC000542	Dipeptides	Amino acids and Peptides	Small peptides
 AFC000543
 AFC000544	Tripeptides	Amino acids and Peptides	Small peptides
-AFC000545	Monosaccharides	Carbohydrates	Saccharides
 AFC000546	Dipeptides	Amino acids and Peptides	Small peptides
 AFC000549	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000550	Monosaccharides	Carbohydrates	Saccharides
-AFC000551	Monosaccharides	Carbohydrates	Saccharides
 AFC000552	Hydrocarbons	Fatty acids	Fatty acyls
 AFC000555	Pyrimidine nucleotides	Carbohydrates	Nucleosides
 AFC000557	Flavonols	Shikimates and Phenylpropanoids	Flavonoids
@@ -420,7 +484,6 @@ AFC000562	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000563
 AFC000564	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000566	Phenylethanoids	Shikimates and Phenylpropanoids	Phenylethanoids (C6-C2)
-AFC000567	Purine nucleotides	Carbohydrates	Nucleosides
 AFC000568	Multiflorane triterpenoids	Terpenoids	Triterpenoids
 AFC000569	Fatty acids
 AFC000570	Androstane steroids	Terpenoids	Steroids
@@ -436,7 +499,6 @@ AFC000580	Secoiridoid monoterpenoids	Terpenoids	Monoterpenoids
 AFC000581	Carboline alkaloids	Alkaloids	Tryptophan alkaloids
 AFC000582	Alkaloids;Terpenoids
 AFC000583	Dihydroflavonols	Shikimates and Phenylpropanoids	Flavonoids
-AFC000584	Monosaccharides	Carbohydrates	Saccharides
 AFC000585	Flavones	Shikimates and Phenylpropanoids	Flavonoids
 AFC000586	Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000587	Cyclitols	Carbohydrates	Polyols
@@ -454,7 +516,6 @@ AFC000600	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
 AFC000601	Ergostane steroids	Terpenoids	Steroids
 AFC000602	Carbohydrates
 AFC000604	Arylnaphthalene and aryltetralin lignans	Shikimates and Phenylpropanoids	Lignans
-AFC000606	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000607	Flavones	Shikimates and Phenylpropanoids	Flavonoids
 AFC000608	Monosaccharides	Carbohydrates	Saccharides
 AFC000609	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
@@ -472,7 +533,6 @@ AFC000620	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000621	Polyamines	Alkaloids	Ornithine alkaloids
 AFC000622	Alkaloids
 AFC000623	Stigmastane steroids	Terpenoids	Steroids
-AFC000624	Dicarboxylic acids;Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000625	Fatty alcohols	Fatty acids	Fatty acyls
 AFC000626	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
 AFC000627	Lanostane, Tirucallane and Euphane triterpenoids	Terpenoids	Triterpenoids
@@ -480,7 +540,6 @@ AFC000628	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
 AFC000629	Alkaloids;Terpenoids
 AFC000630	Lupane triterpenoids	Terpenoids	Triterpenoids
 AFC000631	Furanoid lignans	Shikimates and Phenylpropanoids	Lignans
-AFC000632	Shikimates and Phenylpropanoids
 AFC000633	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
 AFC000634	Iridoids monoterpenoids	Terpenoids	Monoterpenoids
 AFC000636	Purine nucleosides	Carbohydrates	Nucleosides
@@ -490,31 +549,22 @@ AFC000639	Purine nucleosides	Carbohydrates	Nucleosides
 AFC000640	Purine nucleosides	Carbohydrates	Nucleosides
 AFC000641	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000642	Monosaccharides	Carbohydrates	Saccharides
-AFC000643	Monosaccharides	Carbohydrates	Saccharides
 AFC000644	Carbohydrates
 AFC000645	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000646	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
-AFC000647	Monosaccharides	Carbohydrates	Saccharides
 AFC000648	Alkaloids
 AFC000650	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000651	Monosaccharides	Carbohydrates	Saccharides
 AFC000652	Disaccharides;Polysaccharides	Carbohydrates	Saccharides
-AFC000653	Menthane monoterpenoids;Monocyclic monoterpenoids;Pinane monoterpenoids	Terpenoids	Monoterpenoids
 AFC000654	Monosaccharides	Carbohydrates	Saccharides
 AFC000655	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000656	Phenylethylamines	Alkaloids	Tyrosine alkaloids
-AFC000657	Monosaccharides	Carbohydrates	Saccharides
 AFC000658
-AFC000659	Monosaccharides	Carbohydrates	Saccharides
 AFC000660	Aminoacids	Amino acids and Peptides	Small peptides
-AFC000661	Monosaccharides	Carbohydrates	Saccharides
 AFC000662	Pyrimidine nucleotides	Carbohydrates	Nucleosides
 AFC000663	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000664	Aminoacids	Amino acids and Peptides	Small peptides
-AFC000665	Disaccharides	Carbohydrates	Saccharides
 AFC000666	Shikimic acids and derivatives	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
-AFC000667	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
-AFC000668	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000669	Monosaccharides	Carbohydrates	Saccharides
 AFC000670	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000671
@@ -522,14 +572,12 @@ AFC000672	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000673	Aminoacids	Amino acids and Peptides	Small peptides
 AFC000674	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000675	Cholestane steroids	Terpenoids	Steroids
-AFC000676	Monosaccharides	Carbohydrates	Saccharides
 AFC000677	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Small peptides;Fatty Acids and Conjugates
 AFC000678
 AFC000679	Cyclitols	Carbohydrates	Polyols
 AFC000680	Carbohydrates	Polyols
 AFC000681	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
 AFC000682	Cyclitols	Carbohydrates	Polyols
-AFC000683	Cyclitols	Carbohydrates	Polyols
 AFC000684	Cyclitols	Carbohydrates	Polyols
 AFC000685	Dipeptides	Amino acids and Peptides	Small peptides
 AFC000686	Disaccharides	Carbohydrates	Saccharides
@@ -540,11 +588,8 @@ AFC000690	Disaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000691	Polysaccharides	Carbohydrates	Saccharides
 AFC000692	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC000693	Alkaloids
-AFC000694	Monosaccharides	Carbohydrates	Saccharides
-AFC000695	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000696	Disaccharides;Monosaccharides	Carbohydrates	Saccharides
 AFC000697	Monosaccharides	Carbohydrates	Saccharides
-AFC000698	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
 AFC000700	Shikimic acids and derivatives	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC000701	Sphingoid bases	Fatty acids	Spingolipids
 AFC000702	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
@@ -556,7 +601,6 @@ AFC000708
 AFC000709	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
 AFC000710	Ergostane steroids	Terpenoids	Steroids
 AFC000711	Cleistanthane diterpenoids	Terpenoids	Diterpenoids
-AFC000712	Cyclitols	Carbohydrates	Polyols
 AFC000713	Carbohydrates
 AFC000714	Disaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000716	Cholestane steroids	Terpenoids	Steroids
@@ -570,25 +614,20 @@ AFC000725	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000726	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000727	Gibberellins	Terpenoids	Diterpenoids
 AFC000728	Isoquinoline alkaloids;Tetrahydroisoquinoline alkaloids	Alkaloids	Tyrosine alkaloids
-AFC000729	Disaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000730	Pinane monoterpenoids	Terpenoids	Monoterpenoids
 AFC000731	Pinane monoterpenoids	Terpenoids	Monoterpenoids
 AFC000732	Acyl phloroglucinols	Polyketides	Phloroglucinols
 AFC000733	Polysaccharides	Carbohydrates	Saccharides
 AFC000734	Polysaccharides	Carbohydrates	Saccharides
 AFC000735	Aminoacids	Amino acids and Peptides	Small peptides
-AFC000736	Monosaccharides	Carbohydrates	Saccharides
 AFC000737	Chromones	Polyketides	Chromanes
 AFC000738	Chamigrane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC000739	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC000740	Arylnaphthalene and aryltetralin lignans	Shikimates and Phenylpropanoids	Lignans
-AFC000741	Acyclic monoterpenoids	Terpenoids	Monoterpenoids
 AFC000742	Menthane monoterpenoids;Monocyclic monoterpenoids	Terpenoids	Monoterpenoids
 AFC000743	Pyrimidine nucleotides	Carbohydrates	Nucleosides
 AFC000744	Pyrimidine nucleotides	Carbohydrates	Nucleosides
 AFC000745	Monosaccharides	Carbohydrates	Saccharides
 AFC000746	Pyrimidine nucleotides	Carbohydrates	Nucleosides
-AFC000747	Pyrimidine nucleotides	Carbohydrates	Nucleosides
 AFC000748	Cholestane steroids;Lanostane, Tirucallane and Euphane triterpenoids	Terpenoids	Triterpenoids;Steroids
 AFC000749	Ergostane steroids	Terpenoids	Steroids
 AFC000750	Cyclitols	Carbohydrates	Polyols
@@ -623,18 +662,14 @@ AFC000781	Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000782	Carotenoids (C40, ε-ε)	Terpenoids	Carotenoids (C40)
 AFC000783	Polysaccharides	Carbohydrates	Saccharides
 AFC000784	Anthranillic acid derivatives	Alkaloids	Anthranilic acid alkaloids
-AFC000785	Carotenoids (C40, Ψ-Ψ)	Terpenoids	Carotenoids (C40)
 AFC000786	Dipeptides;Tripeptides	Amino acids and Peptides	Small peptides
 AFC000787	Purine nucleotides	Carbohydrates	Nucleosides
 AFC000788	Farnesane sesquiterpenoids	Terpenoids	Sesquiterpenoids
-AFC000789	Monosaccharides	Carbohydrates	Saccharides
 AFC000791	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
 AFC000792	Carotenoids (C40, β-β)	Terpenoids	Carotenoids (C40)
-AFC000793	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000794	Monosaccharides	Carbohydrates	Saccharides
 AFC000795	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
 AFC000796	Phenazine alkaloids	Alkaloids	Anthranilic acid alkaloids
-AFC000797
 AFC000799	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000800	Acyclic monoterpenoids	Terpenoids	Monoterpenoids
 AFC000801	Quinolizidine alkaloids	Alkaloids	Lysine alkaloids
@@ -642,7 +677,6 @@ AFC000802	Fatty alcohols	Fatty acids	Fatty acyls
 AFC000803	Stigmastane steroids	Terpenoids	Steroids
 AFC000804	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC000805	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
-AFC000806	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC000807	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000808	Acyclic monoterpenoids	Terpenoids	Monoterpenoids
 AFC000809	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
@@ -655,19 +689,15 @@ AFC000815	Chalcones	Shikimates and Phenylpropanoids	Flavonoids
 AFC000816	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC000818	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000819	Dicarboxylic acids	Fatty acids	Fatty Acids and Conjugates
-AFC000820	Acyclic monoterpenoids;Cubebane sesquiterpenoids	Terpenoids	Monoterpenoids;Sesquiterpenoids
-AFC000821	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000823	Purine nucleotides	Carbohydrates	Nucleosides
 AFC000825	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC000826	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC000827	Disaccharides	Carbohydrates	Saccharides
 AFC000828
 AFC000829	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC000830	Monosaccharides	Carbohydrates	Saccharides
 AFC000831	Dipeptides	Amino acids and Peptides	Small peptides
 AFC000832	Sphingoid bases	Fatty acids	Spingolipids
 AFC000833	Glucosinolates	Amino acids and Peptides	Amino acid glycosides
-AFC000835	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
 AFC000836	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC000837	Pyridine alkaloids;Pyrrolidine alkaloids	Alkaloids	Ornithine alkaloids;Nicotinic acid alkaloids
 AFC000838	Linear diarylheptanoids	Shikimates and Phenylpropanoids	Diarylheptanoids
@@ -715,7 +745,6 @@ AFC000881	Flavones	Shikimates and Phenylpropanoids	Flavonoids
 AFC000882	Flavones	Shikimates and Phenylpropanoids	Flavonoids
 AFC000883	Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000884	Gibberellins	Terpenoids	Diterpenoids
-AFC000885	Carotenoids (C40, β-β)	Terpenoids	Carotenoids (C40)
 AFC000886	Dicarboxylic acids	Fatty acids	Fatty Acids and Conjugates
 AFC000887	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC000888	Dicarboxylic acids	Fatty acids	Fatty Acids and Conjugates
@@ -791,8 +820,6 @@ AFC000957	Gibberellins	Terpenoids	Diterpenoids
 AFC000958	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC000959	Flavonols	Shikimates and Phenylpropanoids	Flavonoids
 AFC000960	Apocarotenoids(ε-)	Terpenoids	Apocarotenoids
-AFC000961	Carotenoids (C40, β-β)	Terpenoids	Carotenoids (C40)
-AFC000962	Carotenoids (C40, β-β)	Terpenoids	Carotenoids (C40)
 AFC000963	Apocarotenoids (β-)	Terpenoids	Apocarotenoids
 AFC000964	Apocarotenoids(ε-)	Terpenoids	Apocarotenoids
 AFC000965	Apocarotenoids (β-)	Terpenoids	Apocarotenoids
@@ -810,21 +837,15 @@ AFC000976	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000977	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC000978	Primary amides	Fatty acids	Fatty amides
 AFC000979	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
-AFC000980	Ergostane steroids	Terpenoids	Steroids
 AFC000981	Cholestane steroids;Ergostane steroids;Stigmastane steroids	Terpenoids	Steroids
 AFC000982	Ergostane steroids;Stigmastane steroids	Terpenoids	Steroids
 AFC000983	Ergostane steroids;Stigmastane steroids	Terpenoids	Steroids
-AFC000984	Cholestane steroids;Ergostane steroids	Terpenoids	Steroids
 AFC000985	Ergostane steroids	Terpenoids	Steroids
-AFC000986	Fatty alcohols	Fatty acids	Fatty acyls
 AFC000987	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
-AFC000988	Disaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC000989	Cyclitols	Carbohydrates	Polyols
-AFC000990	Cyclitols	Carbohydrates	Polyols
 AFC000991	Fatty alcohols;Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates;Fatty acyls
 AFC000992	Fatty acids
 AFC000993	Monosaccharides	Carbohydrates	Saccharides
-AFC000994	Flavonols	Shikimates and Phenylpropanoids	Flavonoids
 AFC000995	Oxo fatty acids;Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC000996	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC000997	Cinnamic acid amides	Amino acids and Peptides;Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
@@ -833,33 +854,24 @@ AFC000999
 AFC001000	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001001	Simple coumarins	Shikimates and Phenylpropanoids	Coumarins
 AFC001002	Fatty alcohols	Fatty acids	Fatty acyls
-AFC001004	Acyclic monoterpenoids	Terpenoids	Monoterpenoids
 AFC001005	Stigmastane steroids	Terpenoids	Steroids
 AFC001006	Acyl phloroglucinols	Polyketides	Phloroglucinols
 AFC001007	Apocarotenoids (β-)	Terpenoids	Apocarotenoids
 AFC001008	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001009	Flavonols	Shikimates and Phenylpropanoids	Flavonoids
 AFC001010	Caryophyllane sesquiterpenoids	Terpenoids	Sesquiterpenoids
-AFC001011	Fatty aldehydes	Fatty acids	Fatty acyls
-AFC001012	Fatty aldehydes	Fatty acids	Fatty acyls
-AFC001015	Fatty aldehydes	Fatty acids	Fatty acyls
-AFC001016	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001017	Fatty alcohols	Fatty acids	Fatty acyls
-AFC001018	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001019	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001020	Fatty alcohols	Fatty acids	Fatty acyls
-AFC001021	Farnesane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC001022	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001023	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001024	Fatty alcohols	Fatty acids	Fatty acyls
-AFC001025	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001026	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001027	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001028	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
 AFC001029	Acyclic triterpenoids	Terpenoids	Triterpenoids
 AFC001030	Branched fatty acids;Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC001031	Acyclic triterpenoids	Terpenoids	Triterpenoids
-AFC001032	Phytane diterpenoids	Terpenoids	Diterpenoids
 AFC001033	Jasmonic acids;Prenyl quinone meroterpenoids	Fatty acids;Terpenoids	Octadecanoids;Meroterpenoids
 AFC001034	Fatty acids
 AFC001035	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
@@ -869,12 +881,8 @@ AFC001038	Apocarotenoids(ε-)	Terpenoids	Apocarotenoids
 AFC001039
 AFC001040	Gibberellins	Terpenoids	Diterpenoids
 AFC001041	Alkaloids
-AFC001042	Acyclic triterpenoids	Terpenoids	Triterpenoids
 AFC001043	Cholestane steroids	Terpenoids	Steroids
-AFC001045	Simple indole alkaloids	Alkaloids	Tryptophan alkaloids
-AFC001046	Fatty alcohols;Monosaccharides	Carbohydrates;Fatty acids	Fatty acyls;Saccharides
 AFC001047
-AFC001048	Monosaccharides	Carbohydrates	Saccharides
 AFC001049	Gibberellins	Terpenoids	Diterpenoids
 AFC001050	Purine nucleotides;Pyrimidine nucleotides	Carbohydrates	Nucleosides
 AFC001051
@@ -890,7 +898,6 @@ AFC001060	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001061	Gibberellins	Terpenoids	Diterpenoids
 AFC001062	Hydrocarbons	Fatty acids	Fatty acyls
 AFC001063	Hydrocarbons	Fatty acids	Fatty acyls
-AFC001064	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
 AFC001065
 AFC001066	Fatty acids
 AFC001067	Fatty acyl CoAs	Fatty acids	Fatty esters
@@ -905,44 +912,32 @@ AFC001079	Glycerophosphoglycerophosphoglycerols	Fatty acids	Glycerophospholipids
 AFC001080	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
 AFC001081	Iridoids monoterpenoids	Terpenoids	Monoterpenoids
 AFC001083	Aminoacids	Amino acids and Peptides	Small peptides
-AFC001084	Dibenzylbutane lignans	Shikimates and Phenylpropanoids	Lignans
 AFC001085	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
 AFC001087	Monosaccharides	Carbohydrates	Saccharides
-AFC001088	Fatty aldehydes	Fatty acids	Fatty acyls
-AFC001089	Fatty aldehydes	Fatty acids	Fatty acyls
-AFC001090	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001091	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
 AFC001092	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001093	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001094	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001095	Carotenoids (C40, Ψ-Ψ)	Terpenoids	Carotenoids (C40)
 AFC001096	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC001097	Carotenoids (C40, Ψ-Ψ)	Terpenoids	Carotenoids (C40)
 AFC001098	Iridoids monoterpenoids	Terpenoids	Monoterpenoids
 AFC001099	Purine alkaloids;Purine nucleosides	Alkaloids;Carbohydrates	Pseudoalkaloids (transamidation);Nucleosides
-AFC001100	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001101	Alkaloids
 AFC001102	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001103	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001104	Acyl phloroglucinols;Polyprenylated cyclic polyketides (Hop meroterpenoids);Prenylated,geranylated phloroglucinols	Polyketides	Meroterpenoids;Phloroglucinols
 AFC001105	Cholestane steroids	Terpenoids	Steroids
-AFC001106	Disaccharides	Carbohydrates	Saccharides
 AFC001107	Chalcones	Shikimates and Phenylpropanoids	Flavonoids
 AFC001108	Monosaccharides	Carbohydrates	Saccharides
 AFC001109	Stigmastane steroids	Terpenoids	Steroids
 AFC001110	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
-AFC001111	Monosaccharides	Carbohydrates	Saccharides
 AFC001112	Fatty acids
 AFC001113
-AFC001114	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
 AFC001115	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001116	Elemane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC001118	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
-AFC001119	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC001120	Oxo fatty acids;Oxygenated hydrocarbons	Fatty acids	Fatty Acids and Conjugates;Fatty acyls
-AFC001121	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001122	Fatty acids
-AFC001124	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC001125	Jasmonic acids	Fatty acids	Octadecanoids
 AFC001126	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001127	Fatty acyl CoAs	Fatty acids	Fatty esters
@@ -950,7 +945,6 @@ AFC001128	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001129	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001130
 AFC001131	Fatty aldehydes	Fatty acids	Fatty acyls
-AFC001132
 AFC001133	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001134	Fatty acids
 AFC001135	Ergostane steroids;Stigmastane steroids	Terpenoids	Steroids
@@ -961,10 +955,8 @@ AFC001140	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylp
 AFC001141	Oleanane triterpenoids	Terpenoids	Triterpenoids
 AFC001142	Aminoacids	Amino acids and Peptides	Small peptides
 AFC001143	Cholestane steroids	Terpenoids	Steroids
-AFC001144	Carotenoids (C40, Ψ-Ψ)	Terpenoids	Carotenoids (C40)
 AFC001145	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001146	Bisabolane sesquiterpenoids	Terpenoids	Sesquiterpenoids
-AFC001147	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
 AFC001148	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001149
 AFC001150	Chalcones	Shikimates and Phenylpropanoids	Flavonoids
@@ -985,10 +977,8 @@ AFC001164	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001165	Purine nucleotides	Carbohydrates	Nucleosides
 AFC001166	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001167	Carbohydrates	Saccharides
-AFC001168	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001171	Multiflorane triterpenoids	Terpenoids	Triterpenoids
 AFC001172	Monosaccharides	Carbohydrates	Saccharides
-AFC001173	Monosaccharides	Carbohydrates	Saccharides
 AFC001174	Iridoids monoterpenoids	Terpenoids	Monoterpenoids
 AFC001175	Linear sesterterpenoids;Prenyl quinone meroterpenoids	Terpenoids	Sesterterpenoids;Meroterpenoids
 AFC001176	Alkaloids
@@ -999,7 +989,6 @@ AFC001180	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001181	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001182	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001183	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC001184	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001185	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
 AFC001186	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001187	Fatty acyl CoAs	Fatty acids	Fatty esters
@@ -1012,7 +1001,6 @@ AFC001193	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001194	Bisabolane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC001195	Chamigrane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC001196	Cuparane sesquiterpenoids	Terpenoids	Sesquiterpenoids
-AFC001197	Furofuranoid lignans	Shikimates and Phenylpropanoids	Lignans
 AFC001198	Kaurane and Phyllocladane diterpenoids	Terpenoids	Diterpenoids
 AFC001199	Bisabolane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC001200	Fatty alcohols	Fatty acids	Fatty acyls
@@ -1028,8 +1016,6 @@ AFC001210	Phenylethanoids	Shikimates and Phenylpropanoids	Phenylethanoids (C6-C2
 AFC001211	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001212	Polysaccharides	Carbohydrates	Saccharides
 AFC001213	Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
-AFC001214	Purine alkaloids;Purine nucleosides	Alkaloids;Carbohydrates	Pseudoalkaloids (transamidation);Nucleosides
-AFC001215	Cyclitols	Carbohydrates	Polyols
 AFC001216	Gymnomitrane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC001217	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC001218	Alkaloids	Tryptophan alkaloids
@@ -1038,7 +1024,6 @@ AFC001220	Oleanane triterpenoids	Terpenoids	Triterpenoids
 AFC001221	Glucosinolates	Amino acids and Peptides	Amino acid glycosides
 AFC001222	Gibberellins	Terpenoids	Diterpenoids
 AFC001223
-AFC001224	Dipeptides	Amino acids and Peptides	Small peptides
 AFC001225	Phytane diterpenoids	Terpenoids	Diterpenoids
 AFC001226	Gibberellins	Terpenoids	Diterpenoids
 AFC001227	Ergostane steroids	Terpenoids	Steroids
@@ -1046,7 +1031,6 @@ AFC001228	Cuparane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC001229	Gibberellins	Terpenoids	Diterpenoids
 AFC001230	Monosaccharides	Carbohydrates	Saccharides
 AFC001231	Shikimates and Phenylpropanoids
-AFC001232	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
 AFC001233	Lanostane, Tirucallane and Euphane triterpenoids	Terpenoids	Triterpenoids
 AFC001234	Lanostane, Tirucallane and Euphane triterpenoids	Terpenoids	Triterpenoids
 AFC001235	Multiflorane triterpenoids	Terpenoids	Triterpenoids
@@ -1057,7 +1041,6 @@ AFC001239	Farnesane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC001241	Disaccharides	Carbohydrates	Saccharides
 AFC001242	Disaccharides	Carbohydrates	Saccharides
 AFC001243	Purine nucleotides;Pyrimidine nucleotides	Carbohydrates	Nucleosides
-AFC001244	Stigmastane steroids	Terpenoids	Steroids
 AFC001246	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
 AFC001248	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001249	Fatty alcohols	Fatty acids	Fatty acyls
@@ -1086,7 +1069,6 @@ AFC001272	Cholestane steroids;Lanostane, Tirucallane and Euphane triterpenoids	T
 AFC001273	Cholestane steroids	Terpenoids	Steroids
 AFC001274	Cholestane steroids	Terpenoids	Steroids
 AFC001275	Cholestane steroids	Terpenoids	Steroids
-AFC001276	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001277
 AFC001278	Aminoacids	Amino acids and Peptides	Small peptides
 AFC001279	Carbohydrates
@@ -1094,23 +1076,18 @@ AFC001280	Aminoacids	Amino acids and Peptides	Small peptides
 AFC001281	Aminoacids;Dipeptides	Amino acids and Peptides	Small peptides
 AFC001282	Alkaloids
 AFC001283	Stigmastane steroids	Terpenoids	Steroids
-AFC001284	Monosaccharides	Carbohydrates	Saccharides
 AFC001285	Isoflavanones	Shikimates and Phenylpropanoids	Isoflavonoids
 AFC001286	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001287	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001288	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC001289	Purine nucleotides	Carbohydrates	Nucleosides
 AFC001290	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
-AFC001291	Furanoid lignans	Shikimates and Phenylpropanoids	Lignans
 AFC001292
-AFC001293	Carotenoids (C40, Ψ-Ψ)	Terpenoids	Carotenoids (C40)
 AFC001294	Apocarotenoids(ε-)	Terpenoids	Apocarotenoids
 AFC001295
 AFC001296	Purine nucleotides	Carbohydrates	Nucleosides
 AFC001297	Purine nucleotides	Carbohydrates	Nucleosides
 AFC001298	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001299	Kaurane and Phyllocladane diterpenoids	Terpenoids	Diterpenoids
-AFC001301	Cyclitols	Carbohydrates	Polyols
 AFC001302	Kaurane and Phyllocladane diterpenoids	Terpenoids	Diterpenoids
 AFC001303	Quinoline alkaloids	Alkaloids	Anthranilic acid alkaloids
 AFC001304	Gibberellins	Terpenoids	Diterpenoids
@@ -1121,7 +1098,6 @@ AFC001308	Gibberellins	Terpenoids	Diterpenoids
 AFC001309	Purine nucleosides;Purine nucleotides	Carbohydrates	Nucleosides
 AFC001310
 AFC001311	Gibberellins	Terpenoids	Diterpenoids
-AFC001312
 AFC001313	Purine nucleosides	Carbohydrates	Nucleosides
 AFC001315	Purine nucleosides	Carbohydrates	Nucleosides
 AFC001316	Isoflavanones	Shikimates and Phenylpropanoids	Isoflavonoids
@@ -1136,16 +1112,12 @@ AFC001326	Gibberellins	Terpenoids	Diterpenoids
 AFC001327	12-oxophytodienoic acid metabolites	Fatty acids	Octadecanoids
 AFC001328	Cyclitols	Carbohydrates	Polyols
 AFC001329	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC001330
 AFC001331	Carbohydrates
-AFC001332	Cyclitols	Carbohydrates	Polyols
 AFC001333	Monosaccharides	Carbohydrates	Saccharides
 AFC001334
 AFC001335	Fatty acids	Spingolipids
 AFC001336	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001337	Fatty acids	Octadecanoids
-AFC001339	Carotenoids (C40, Ψ-Ψ)	Terpenoids	Carotenoids (C40)
-AFC001341	Cyclitols	Carbohydrates	Polyols
 AFC001342	Dihydroflavonols	Shikimates and Phenylpropanoids	Flavonoids
 AFC001343	Aminosugars	Carbohydrates	Aminosugars and aminoglycosides
 AFC001344	Fatty acids
@@ -1157,7 +1129,6 @@ AFC001349	Carbohydrates
 AFC001350	Apocarotenoids(ε-)	Terpenoids	Apocarotenoids
 AFC001351	Bactoprenols	Terpenoids	Polyprenols
 AFC001352	Cyclitols	Carbohydrates	Polyols
-AFC001353	Cyclitols	Carbohydrates	Polyols
 AFC001354	Gibberellins	Terpenoids	Diterpenoids
 AFC001355
 AFC001356	Alkaloids
@@ -1168,20 +1139,15 @@ AFC001360
 AFC001361	Sophorolipids	Fatty acids	Fatty acyl glycosides
 AFC001362	Fatty acids
 AFC001363	Fatty acids
-AFC001364
 AFC001365	Fatty acids	Spingolipids
 AFC001369	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001370	Cholestane steroids	Terpenoids	Steroids
 AFC001371	Purine nucleotides	Carbohydrates	Nucleosides
-AFC001373
-AFC001374	Monosaccharides	Carbohydrates	Saccharides
 AFC001375	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC001376	Monosaccharides	Carbohydrates	Saccharides
 AFC001377	Alkaloids;Terpenoids
 AFC001378	Monosaccharides	Carbohydrates	Saccharides
 AFC001379	Alkaloids;Terpenoids
 AFC001380	Kaurane and Phyllocladane diterpenoids	Terpenoids	Diterpenoids
-AFC001381	Cholestane steroids	Terpenoids	Steroids
 AFC001382	Cholestane steroids	Terpenoids	Steroids
 AFC001383	Cholestane steroids	Terpenoids	Steroids
 AFC001384	Cholestane steroids	Terpenoids	Steroids
@@ -1189,8 +1155,6 @@ AFC001385	Cholestane steroids	Terpenoids	Steroids
 AFC001386	Cholestane steroids	Terpenoids	Steroids
 AFC001387	Cholestane steroids	Terpenoids	Steroids
 AFC001388	Cholestane steroids	Terpenoids	Steroids
-AFC001389	Fatty alcohols	Fatty acids	Fatty acyls
-AFC001390	Iridoids monoterpenoids	Terpenoids	Monoterpenoids
 AFC001391	12-oxophytodienoic acid metabolites	Fatty acids	Octadecanoids
 AFC001393	Carbohydrates
 AFC001394	Fatty acyl CoAs	Fatty acids	Fatty esters
@@ -1198,10 +1162,8 @@ AFC001395
 AFC001396	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001397	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001398	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
-AFC001399	Monosaccharides	Carbohydrates	Saccharides
 AFC001401	Fatty acids
 AFC001403	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC001404	Ergostane steroids	Terpenoids	Steroids
 AFC001405	Apocarotenoids(ε-)	Terpenoids	Apocarotenoids
 AFC001406	Fatty acids	Fatty acyls
 AFC001408	Monosaccharides	Carbohydrates	Saccharides
@@ -1217,14 +1179,13 @@ AFC001418
 AFC001419	Imidazole alkaloids	Alkaloids	Histidine alkaloids
 AFC001420	Dipeptides	Amino acids and Peptides	Small peptides
 AFC001421	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
-AFC001422	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001423	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001424	Humulane sesquiterpenoids	Terpenoids	Sesquiterpenoids
 AFC001426	Apocarotenoids (Ψ-)	Terpenoids	Apocarotenoids
 AFC001427	Catechols with side chains	Polyketides	Aromatic polyketides
 AFC001428	Apocarotenoids (Ψ-)	Terpenoids	Apocarotenoids
 AFC001429	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
-AFC001431	Carotenoids (C40, Ψ-Ψ)	Terpenoids	Carotenoids (C40)
+AFC001430	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001433	Other Octadecanoids	Fatty acids	Octadecanoids
 AFC001434	Fatty alcohols;Other Octadecanoids	Fatty acids	Octadecanoids;Fatty acyls
 AFC001435	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
@@ -1234,16 +1195,13 @@ AFC001438	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001439	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001440	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001441	Cycloartane triterpenoids	Terpenoids	Triterpenoids
-AFC001442	Disaccharides	Carbohydrates	Saccharides
 AFC001443	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001444	Aminosugars;Purine nucleotides;Pyrimidine nucleotides	Carbohydrates	Aminosugars and aminoglycosides;Nucleosides
 AFC001445	Monosaccharides	Carbohydrates	Saccharides
 AFC001447	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
 AFC001448	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
-AFC001449	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001450	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001451	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
-AFC001452	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001453	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001454	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001455	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
@@ -1262,7 +1220,6 @@ AFC001468	Purine alkaloids	Alkaloids;Carbohydrates	Pseudoalkaloids (transamidati
 AFC001469	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001470	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001471	Cholestane steroids;Stigmastane steroids	Terpenoids	Steroids
-AFC001472	Arylnaphthalene and aryltetralin lignans	Shikimates and Phenylpropanoids	Lignans
 AFC001473	Gibberellins;Norkaurane diterpenoids	Terpenoids	Diterpenoids
 AFC001474	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001475
@@ -1270,7 +1227,6 @@ AFC001476	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001478	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001479	Aminoacids	Amino acids and Peptides	Small peptides
 AFC001480	Fatty alcohols	Fatty acids	Fatty acyls
-AFC001481	Fatty aldehydes	Fatty acids	Fatty acyls
 AFC001482	Amino cyclitols;Aminosugars	Carbohydrates	Polyols;Aminosugars and aminoglycosides
 AFC001483	Beyerane diterpenoids;Kaurane and Phyllocladane diterpenoids;Norkaurane diterpenoids	Terpenoids	Diterpenoids
 AFC001484	Monosaccharides	Carbohydrates	Saccharides
@@ -1296,7 +1252,6 @@ AFC001504	Catechols with side chains	Polyketides	Aromatic polyketides
 AFC001505	Cholestane steroids	Terpenoids	Steroids
 AFC001506	Catechols with side chains	Polyketides	Aromatic polyketides
 AFC001508	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC001509	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001510	Dihydroflavonols	Shikimates and Phenylpropanoids	Flavonoids
 AFC001511	Carotenoids (C40, β-β)	Terpenoids	Carotenoids (C40)
 AFC001512	Dihydroflavonols	Shikimates and Phenylpropanoids	Flavonoids
@@ -1324,7 +1279,7 @@ AFC001534	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001535	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001536	Fatty acyl CoAs	Fatty acids	Fatty esters
 AFC001537	Fatty acyl CoAs	Fatty acids	Fatty esters
-AFC001539	Fatty aldehydes	Fatty acids	Fatty acyls
+AFC001538	Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC001540	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001541	Stigmastane steroids	Terpenoids	Steroids
 AFC001542	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
@@ -1350,7 +1305,6 @@ AFC001561	Purine nucleotides	Carbohydrates	Nucleosides
 AFC001562	Imidazole alkaloids	Alkaloids	Histidine alkaloids
 AFC001564	Purine nucleosides;Purine nucleotides	Carbohydrates	Nucleosides
 AFC001565	Purine nucleosides;Purine nucleotides	Carbohydrates	Nucleosides
-AFC001566	Purine nucleosides;Purine nucleotides	Carbohydrates	Nucleosides
 AFC001567	Purine nucleosides;Purine nucleotides	Carbohydrates	Nucleosides
 AFC001570	Purine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
 AFC001571	Purine nucleosides	Carbohydrates	Nucleosides
@@ -1373,8 +1327,6 @@ AFC001588	Alkaloids;Amino acids and Peptides
 AFC001589	Purine nucleotides	Carbohydrates	Nucleosides
 AFC001590	Alkaloids;Amino acids and Peptides
 AFC001591	Alkaloids
-AFC001592	Purine nucleosides;Purine nucleotides	Carbohydrates	Nucleosides
-AFC001593	Purine nucleosides;Purine nucleotides	Carbohydrates	Nucleosides
 AFC001594	Purine nucleosides	Carbohydrates	Nucleosides
 AFC001595	Imidazole alkaloids	Alkaloids	Histidine alkaloids
 AFC001596	Alkaloids
@@ -1385,15 +1337,18 @@ AFC001600	Cycloartane triterpenoids	Terpenoids	Triterpenoids
 AFC001601	Cycloartane triterpenoids	Terpenoids	Triterpenoids
 AFC001602	Apocarotenoids(ε-)	Terpenoids	Apocarotenoids
 AFC001603	Stigmastane steroids	Terpenoids	Steroids
-AFC001608	Fatty alcohols	Fatty acids	Fatty acyls
+AFC001606
+AFC001609	Hydrocarbons	Fatty acids	Fatty acyls
 AFC001610	Pyridine alkaloids	Alkaloids	Nicotinic acid alkaloids
 AFC001611	Pyridine alkaloids;Pyrrole alkaloids	Alkaloids	Proline alkaloids;Nicotinic acid alkaloids
+AFC001613	Oxygenated hydrocarbons	Fatty acids	Fatty acyls
 AFC001614	Fatty acids
 AFC001615	Fatty acids
 AFC001617	Fatty acids
 AFC001618	Fatty acids
 AFC001619	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001620	Fatty alcohols	Fatty acids	Fatty acyls
+AFC001621	Prenyl quinone meroterpenoids	Terpenoids	Meroterpenoids
 AFC001623	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001624	Fatty alcohols	Fatty acids	Fatty acyls
 AFC001625	Fatty alcohols	Fatty acids	Fatty acyls
@@ -1402,34 +1357,46 @@ AFC001627	Flavones	Shikimates and Phenylpropanoids	Flavonoids
 AFC001628	Flavones	Shikimates and Phenylpropanoids	Flavonoids
 AFC001632	Cholestane steroids;Ergostane steroids;Stigmastane steroids	Terpenoids	Steroids
 AFC001633	Ergostane steroids;Stigmastane steroids	Terpenoids	Steroids
-AFC001634	Ergostane steroids	Terpenoids	Steroids
 AFC001635	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001636	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001637	Ergostane steroids	Terpenoids	Steroids
 AFC001638	Aminoacids	Amino acids and Peptides	Small peptides
-AFC001641	Multiflorane triterpenoids	Terpenoids	Triterpenoids
-AFC001648	Aminoacids	Amino acids and Peptides	Small peptides
+AFC001639	Lupane triterpenoids	Terpenoids	Triterpenoids
+AFC001643	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
+AFC001644	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001645	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001646	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001647	Anthocyanidins	Shikimates and Phenylpropanoids	Flavonoids
 AFC001650	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001651	Cucurbitane triterpenoids;Lanostane, Tirucallane and Euphane triterpenoids	Terpenoids	Triterpenoids
 AFC001654	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
 AFC001662	Menthane monoterpenoids	Terpenoids	Monoterpenoids
-AFC001664	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
-AFC001665	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001669	Flavones	Shikimates and Phenylpropanoids	Flavonoids
 AFC001670	Carotenoids (C40, ε-ε)	Terpenoids	Carotenoids (C40)
 AFC001683	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
+AFC001700	Arylnaphthalene and aryltetralin lignans	Shikimates and Phenylpropanoids	Lignans
+AFC001703	Flavonols	Shikimates and Phenylpropanoids	Flavonoids
 AFC001707	Oligomeric stibenes	Shikimates and Phenylpropanoids	Stilbenoids
 AFC001709
+AFC001710	Flavones	Shikimates and Phenylpropanoids	Flavonoids
 AFC001720	Polysaccharides	Carbohydrates	Saccharides
 AFC001725	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
+AFC001729
+AFC001744	Shikimates and Phenylpropanoids
+AFC001745	Shikimates and Phenylpropanoids
+AFC001746	Shikimates and Phenylpropanoids	Flavonoids
 AFC001747	Acyl phloroglucinols	Polyketides	Phloroglucinols
-AFC001749
+AFC001749	Alkaloids
+AFC001938	Alkaloids
+AFC001939	pteridine alkaloids	Alkaloids	Pseudoalkaloids (transamidation)
+AFC001751	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001752	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001756	Dihydroflavonols	Shikimates and Phenylpropanoids	Flavonoids
 AFC001757	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
-AFC001758	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
+AFC001759	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
 AFC001768	Aminoacids	Amino acids and Peptides	Small peptides
 AFC001769	Imidazole alkaloids	Alkaloids	Histidine alkaloids
-AFC001770	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
 AFC001771
-AFC001773	Aminoacids	Amino acids and Peptides	Small peptides
 AFC001774	Aminoacids	Amino acids and Peptides	Small peptides
 AFC001775	Flavanones	Shikimates and Phenylpropanoids	Flavonoids
 AFC001776	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
@@ -1437,8 +1404,78 @@ AFC001779	Oleanane triterpenoids	Terpenoids	Triterpenoids
 AFC001780	Multiflorane triterpenoids	Terpenoids	Triterpenoids
 AFC001781	Multiflorane triterpenoids	Terpenoids	Triterpenoids
 AFC001782	Multiflorane triterpenoids	Terpenoids	Triterpenoids
-AFC001783	Multiflorane triterpenoids	Terpenoids	Triterpenoids
 AFC001784	Multiflorane triterpenoids	Terpenoids	Triterpenoids
-AFC001785	Carotenoids (C40, Ψ-Ψ)	Terpenoids	Carotenoids (C40)
 AFC001786	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
 AFC001787	Lactones	Fatty acids	Fatty esters
+AFC001788	Imidazole alkaloids	Alkaloids	Histidine alkaloids
+AFC001789	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001790	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001796	Cinnamic acids and derivatives	Shikimates and Phenylpropanoids	Phenylpropanoids (C6-C3)
+AFC001797	Shikimates and Phenylpropanoids
+AFC001798	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001799	Phenylethanoids	Shikimates and Phenylpropanoids	Phenylethanoids (C6-C2)
+AFC001800	Shikimates and Phenylpropanoids
+AFC001801	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001802	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001803	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001804	Simple phenolic acids	Shikimates and Phenylpropanoids	Phenolic acids (C6-C1)
+AFC001805	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001806	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001807	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001809	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001811	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001812	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001813	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001815	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001816	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001818	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001822	Stigmastane steroids	Terpenoids	Steroids
+AFC001823	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001824	Flavones	Shikimates and Phenylpropanoids	Flavonoids
+AFC001826	Cucurbitane triterpenoids	Terpenoids	Triterpenoids
+AFC001827	Unsaturated fatty acids	Fatty acids	Fatty Acids and Conjugates
+AFC001828
+AFC001829	Wax monoesters	Fatty acids	Fatty esters
+AFC001830	Wax monoesters	Fatty acids	Fatty esters
+AFC001831	Fatty alcohols	Fatty acids	Fatty acyls
+AFC001832	Fatty aldehydes	Fatty acids	Fatty acyls
+AFC000216	Aminoacids	Amino acids and Peptides	Small peptides
+AFC000220	Aminoacids	Amino acids and Peptides	Small peptides
+AFC000221	Amino fatty acids;Aminoacids	Amino acids and Peptides;Fatty acids	Fatty Acids and Conjugates;Small peptides
+AFC000233	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC000250	Fatty alcohols;Monosaccharides	Carbohydrates;Fatty acids	Fatty acyls;Saccharides
+AFC000251	Disaccharides	Carbohydrates	Saccharides
+AFC000345	Fatty alcohols;Monosaccharides	Carbohydrates;Fatty acids	Fatty acyls;Saccharides
+AFC000424	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC000431	Monosaccharides	Carbohydrates	Saccharides
+AFC000441	Acyclic monoterpenoids	Terpenoids	Monoterpenoids
+AFC000464	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC000511	Hydroxy fatty acids	Fatty acids	Fatty Acids and Conjugates
+AFC000530	Monosaccharides	Carbohydrates	Saccharides
+AFC000541	Monosaccharides	Carbohydrates	Saccharides
+AFC000545	Monosaccharides	Carbohydrates	Saccharides
+AFC000606	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC000647	Monosaccharides	Carbohydrates	Saccharides
+AFC000659	Monosaccharides	Carbohydrates	Saccharides
+AFC000661	Monosaccharides	Carbohydrates	Saccharides
+AFC000665	Disaccharides	Carbohydrates	Saccharides
+AFC000667	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC000668	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC000695	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC000729	Disaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC000793	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC000830	Monosaccharides	Carbohydrates	Saccharides
+AFC000990	Cyclitols	Carbohydrates	Polyols
+AFC001097	Carotenoids (C40, Ψ-Ψ)	Terpenoids	Carotenoids (C40)
+AFC001119	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC001124	Monosaccharides;Polysaccharides	Carbohydrates	Saccharides
+AFC001284	Monosaccharides	Carbohydrates	Saccharides
+AFC001312
+AFC001332	Cyclitols	Carbohydrates	Polyols
+AFC001376	Monosaccharides	Carbohydrates	Saccharides
+AFC001389	Fatty alcohols	Fatty acids	Fatty acyls
+AFC001566	Purine nucleosides;Purine nucleotides	Carbohydrates	Nucleosides
+AFC001592	Purine nucleosides;Purine nucleotides	Carbohydrates	Nucleosides
+AFC001641	Multiflorane triterpenoids	Terpenoids	Triterpenoids
+AFC001792	Imidazole alkaloids	Alkaloids	Histidine alkaloids
+AFC001820	Cucurbitane triterpenoids	Terpenoids	Triterpenoids

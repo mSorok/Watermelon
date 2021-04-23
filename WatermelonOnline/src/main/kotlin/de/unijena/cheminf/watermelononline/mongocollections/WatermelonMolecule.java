@@ -131,10 +131,21 @@ public class WatermelonMolecule {
     public String pubchemBitsString;
 
 
-    public String chemicalSuperClass;
-    public String chemicalClass;
-    public String chemicalSubClass;
-    public String directParentClassification;
+
+    public String chemicalTaxonomyNPclassifierPathway;
+    public String chemicalTaxonomyNPclassifierSuperclass;
+    public String chemicalTaxonomyNPclassifierClass;
+
+    public HashSet<String> chemicalTaxonomySearcheable;
+
+    public ArrayList<ArrayList<String>> pass_bioactivity_predictions;
+    public ArrayList<String> pass_bioactivity_searcheable;
+
+
+    public Double tanimoto; //only for similarity measure when doing similarity search - not a storage in the DB!!!
+
+    public ArrayList<CompoundLevels> compoundLevels;
+
 
 
     // Molecular descriptors
@@ -688,36 +699,44 @@ public class WatermelonMolecule {
         this.pubchemBitsString = pubchemBitsString;
     }
 
-    public String getChemicalSuperClass() {
-        return chemicalSuperClass;
+    public String getChemicalTaxonomyNPclassifierPathway() {
+        return chemicalTaxonomyNPclassifierPathway;
     }
 
-    public void setChemicalSuperClass(String chemicalSuperClass) {
-        this.chemicalSuperClass = chemicalSuperClass;
+    public void setChemicalTaxonomyNPclassifierPathway(String chemicalTaxonomyNPclassifierPathway) {
+        this.chemicalTaxonomyNPclassifierPathway = chemicalTaxonomyNPclassifierPathway;
     }
 
-    public String getChemicalClass() {
-        return chemicalClass;
+    public String getChemicalTaxonomyNPclassifierSuperclass() {
+        return chemicalTaxonomyNPclassifierSuperclass;
     }
 
-    public void setChemicalClass(String chemicalClass) {
-        this.chemicalClass = chemicalClass;
+    public void setChemicalTaxonomyNPclassifierSuperclass(String chemicalTaxonomyNPclassifierSuperclass) {
+        this.chemicalTaxonomyNPclassifierSuperclass = chemicalTaxonomyNPclassifierSuperclass;
     }
 
-    public String getChemicalSubClass() {
-        return chemicalSubClass;
+    public String getChemicalTaxonomyNPclassifierClass() {
+        return chemicalTaxonomyNPclassifierClass;
     }
 
-    public void setChemicalSubClass(String chemicalSubClass) {
-        this.chemicalSubClass = chemicalSubClass;
+    public void setChemicalTaxonomyNPclassifierClass(String chemicalTaxonomyNPclassifierClass) {
+        this.chemicalTaxonomyNPclassifierClass = chemicalTaxonomyNPclassifierClass;
     }
 
-    public String getDirectParentClassification() {
-        return directParentClassification;
+    public ArrayList<ArrayList<String>> getPass_bioactivity_predictions() {
+        return pass_bioactivity_predictions;
     }
 
-    public void setDirectParentClassification(String directParentClassification) {
-        this.directParentClassification = directParentClassification;
+    public void setPass_bioactivity_predictions(ArrayList<ArrayList<String>> pass_bioactivity_predictions) {
+        this.pass_bioactivity_predictions = pass_bioactivity_predictions;
+    }
+
+    public ArrayList<String> getPass_bioactivity_searcheable() {
+        return pass_bioactivity_searcheable;
+    }
+
+    public void setPass_bioactivity_searcheable(ArrayList<String> pass_bioactivity_searcheable) {
+        this.pass_bioactivity_searcheable = pass_bioactivity_searcheable;
     }
 
     public Double getAlogp() {
@@ -982,5 +1001,13 @@ public class WatermelonMolecule {
 
     public void setInchikey2D(String inchikey2D) {
         this.inchikey2D = inchikey2D;
+    }
+
+    public ArrayList<CompoundLevels> getCompoundLevels() {
+        return compoundLevels;
+    }
+
+    public void setCompoundLevels(ArrayList<CompoundLevels> compoundLevels) {
+        this.compoundLevels = compoundLevels;
     }
 }

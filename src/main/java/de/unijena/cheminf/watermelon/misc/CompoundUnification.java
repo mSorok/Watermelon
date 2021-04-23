@@ -34,6 +34,7 @@ public class CompoundUnification {
         SignatureFingerprinter signatureFingerprinter = new SignatureFingerprinter();
         //PubchemFingerprinter pubchemFingerprinter = new PubchemFingerprinter();
         ShortestPathFingerprinter shortestPathFingerprinter = new ShortestPathFingerprinter();
+        HybridizationFingerprinter hybridizationFingerprinter = new HybridizationFingerprinter();
 
         List<WatermelonMolecule> allMolecules = watermelonMoleculeRepository.findAll();
 
@@ -41,20 +42,23 @@ public class CompoundUnification {
             for(WatermelonMolecule wm2 : allMolecules){
                 if(!wm1.afc_id.equals(wm2.afc_id)){
                     boolean toUnify = false;
-                    if(wm1.absolute_smiles.equals(wm2.absolute_smiles)){
+                    if(wm1.absolute_smiles.equals(wm2.absolute_smiles) && wm1.unique_smiles.equals(wm2.unique_smiles)){
                         toUnify = true;
+                        System.out.println(wm1.afc_id+" and "+wm2.afc_id + " unified on identical absolute smiles");
                     }else{
-                        if(!wm1.absolute_smiles.matches("^C+$")) { //not only pure lipid
+                        if( wm1.molecular_formula.equals(wm2.molecular_formula)  && !wm1.absolute_smiles.matches("^C+$")) { //not only pure lipid
                             // catculate Tanimoto
                             try {
-                                IAtomContainer ac1 = sp.parseSmiles(wm1.absolute_smiles);
-                                IAtomContainer ac2 = sp.parseSmiles(wm2.absolute_smiles);
+                                IAtomContainer ac1 = sp.parseSmiles(wm1.unique_smiles);
+                                IAtomContainer ac2 = sp.parseSmiles(wm2.unique_smiles);
 
                                 Double tanimoto_extended = Tanimoto.calculate(extendedFingerprinter.getBitFingerprint(ac1), extendedFingerprinter.getBitFingerprint(ac2));
                                 Double tanimoto_maccs = Tanimoto.calculate(maccsFingerprinter.getBitFingerprint(ac1), maccsFingerprinter.getBitFingerprint(ac2));
                                 Double tanimoto_signature = Tanimoto.calculate(signatureFingerprinter.getBitFingerprint(ac1), signatureFingerprinter.getBitFingerprint(ac2));
+                                Double tanimoto_hybrid = Tanimoto.calculate(hybridizationFingerprinter.getBitFingerprint(ac1), hybridizationFingerprinter.getBitFingerprint(ac2));
+
                                 //Double tanimoto_sp = Tanimoto.calculate(shortestPathFingerprinter.getBitFingerprint(ac1), shortestPathFingerprinter.getBitFingerprint(ac2));
-                                if (tanimoto_extended == 1 && tanimoto_maccs == 1 && tanimoto_signature == 1 ) {
+                                if (tanimoto_extended == 1 && tanimoto_maccs == 1 && tanimoto_signature == 1 && tanimoto_hybrid ==1) {
                                     toUnify = true;
                                 }
                             } catch (CDKException | NullPointerException e) {
@@ -113,6 +117,9 @@ public class CompoundUnification {
                         if(mainWm.lipidmaps == "" && qWm.lipidmaps != ""){
                             mainWm.lipidmaps = qWm.lipidmaps;
                         }
+
+                        mainWm.sources.addAll(qWm.sources);
+                        mainWm.xrefs.addAll(qWm.xrefs);
 
                         watermelonMoleculeRepository.save(mainWm);
                         QuarantinedMolecule qm = new QuarantinedMolecule();

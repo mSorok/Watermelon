@@ -36,7 +36,7 @@ public class WatermelonMoleculeRepositoryImpl implements WatermelonMoleculeRepos
         String fMatch1 = "{'$match': {'pfCounts.count': {'$gte': "+qmin+", '$lte': "+qmax+"}, 'pfCounts.bits': {'$in': "+reqbits+"}}}";
 
 
-        String fProjection = "{'$project': { 'tanimoto': {'$let': {  'vars': {'common': {'$size': {'$setIntersection': ['$pfCounts.bits', "+qfp+"]}}}, 'in': {'$divide': ['$$common', {'$subtract': [{'$add': ["+qn+", '$pfCounts.count']}, '$$common']}]}  }},   'coconut_id': 1, 'unique_smiles':1, 'clean_smiles':1, 'molecular_formula':1, 'molecular_weight':1, 'npl_score':1 , 'name':1, 'smiles':1}}";
+        String fProjection = "{'$project': { 'tanimoto': {'$let': {  'vars': {'common': {'$size': {'$setIntersection': ['$pfCounts.bits', "+qfp+"]}}}, 'in': {'$divide': ['$$common', {'$subtract': [{'$add': ["+qn+", '$pfCounts.count']}, '$$common']}]}  }},   'afp_id': 1, 'unique_smiles':1, 'original_smiles':1, 'molecularFormula':1, 'molecularWeight':1, 'molecular_formula':1 , 'molecular_weight':1 ,'compoundName':1, 'inchi':1}}";
 
 
         String fMatch2 = "{'$match': {'tanimoto': {'$gte': "+threshold+"}}}";

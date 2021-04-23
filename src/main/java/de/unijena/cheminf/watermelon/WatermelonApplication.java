@@ -6,6 +6,7 @@ import de.unijena.cheminf.watermelon.comparator.CompareToSelf;
 import de.unijena.cheminf.watermelon.misc.*;
 import de.unijena.cheminf.watermelon.molecules.WMolecule;
 import de.unijena.cheminf.watermelon.molecules.WMoleculeSim;
+import de.unijena.cheminf.watermelon.reader.ReadNutrientLevels;
 import de.unijena.cheminf.watermelon.reader.ReadTSV;
 import de.unijena.cheminf.watermelon.reader.WriteWMolecule;
 import org.openscience.cdk.interfaces.IAtomContainer;
@@ -62,6 +63,9 @@ public class WatermelonApplication  implements CommandLineRunner {
     @Autowired
     CompoundUnification compoundUnification;
 
+    @Autowired
+    ReadNutrientLevels readNutrientLevels;
+
 
     public static void main(String[] args) {
         SpringApplication.run(WatermelonApplication.class, args);
@@ -70,11 +74,16 @@ public class WatermelonApplication  implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+        if(args[0].equals("addPASS")){
 
-        //mongoTemplate.getDb().drop();
+            //TODO
+        }else {
 
 
-        //read TSV file with watermelon molecules
+            mongoTemplate.getDb().drop();
+
+
+            //read TSV file with watermelon molecules
 
         /*ArrayList<IAtomContainer> watermelonUSDA = readTSV.readFile(new File("data/watermelon_compoundsJ_20201228.tsv"));
 
@@ -86,28 +95,31 @@ public class WatermelonApplication  implements CommandLineRunner {
         ArrayList<IAtomContainer> watermelonAC = moleculesUnifier.joinTwoListsOfAtomContainers(watermelonUSDA, watermelonLOTUS);
         System.out.println(watermelonAC.size());
         System.out.println("done");*/
-/*
-        System.out.println("Reading files in "+args[0]);
-        readTSV.readFromDirectoryAndInsertInMongo(args[0]);
 
-        // compute all necessary properties
-        System.out.println("computing molecular properties");
-        propertiesComputer.processAndComputeProperties();
+            System.out.println("Reading files in " + args[0]);
+            readTSV.readFromDirectoryAndInsertInMongo(args[0]);
 
-        fingerprintsCountsFiller.doWork();
-        System.out.println("done");
+            // compute all necessary properties
+            System.out.println("computing molecular properties");
+            propertiesComputer.processAndComputeProperties();
 
 
-        moleculeCurator.doWork();
-        fixIdentifiers.createIDforNewMolecules();
+            moleculeCurator.doWork();
+            fixIdentifiers.createIDforNewMolecules();
 
-        miscFix.aprilFix();
-*/
-        compoundUnification.eliminateIdenticalMolecules();
+            miscFix.aprilFix();
 
-        System.out.println("writing to file");
+            compoundUnification.eliminateIdenticalMolecules();
 
-        writeWMolecule.writeFromDatabase(new File("data/curated_watermelon_molecules_20211504.tsv"));
+            fingerprintsCountsFiller.doWork();
+            System.out.println("done");
+
+            readNutrientLevels.readLevelsTable(new File("data/levels.tsv"));
+
+            System.out.println("writing to file");
+
+            writeWMolecule.writeFromDatabase(new File("data/curated_watermelon_molecules_20210420.tsv"));
+            writeWMolecule.writeLongFromDatabase(new File("data/curated_watermelon_molecules_wdescriptors_20210420.tsv"));
 
 
         /*writeWMolecule.writeAllToFile(watermelonMolecules, new File("data/curated_watermelon_molecules.tsv"));
@@ -123,15 +135,17 @@ public class WatermelonApplication  implements CommandLineRunner {
         */
 
 
-        // compare to self
-        //System.out.println("comparing watermelon molecules between them (Tanimoto on extended and PubChem FPs)");
-        //ArrayList<WMoleculeSim> similarityToSelfList = compareToSelf.runComparison(watermelonMolecules);
+            // compare to self
+            //System.out.println("comparing watermelon molecules between them (Tanimoto on extended and PubChem FPs)");
+            //ArrayList<WMoleculeSim> similarityToSelfList = compareToSelf.runComparison(watermelonMolecules);
 
-        //compareToSelf.writeSimilarityToFile(similarityToSelfList, new File("data/similarityToSelf_tanimoto04.tsv"), 0.4);
+            //compareToSelf.writeSimilarityToFile(similarityToSelfList, new File("data/similarityToSelf_tanimoto04.tsv"), 0.4);
 
-        System.out.println("Done");
+            System.out.println("Done");
 
+        }
 
+        System.out.println("Normal exit");
 
         //Compare to zinc (in vitro) , chembl, drugbank, PubChem
 

@@ -32,11 +32,11 @@ export default class PredictedActivity extends React.Component {
         let header = [];
         let table_body = [];
 
-        console.log(naturalProduct.pass_bioactivity_searcheable);
+        //console.log(naturalProduct.pass_bioactivity_searcheable);
 
 
         if(naturalProduct.pass_bioactivity_searcheable == null || naturalProduct.pass_bioactivity_searcheable.length==0){
-            console.log("entered the if");
+            //console.log("entered the if");
             return(
                 <Card className="compoundCardItem">
                     <Card.Body>
@@ -129,9 +129,7 @@ export default class PredictedActivity extends React.Component {
                     <Card.Title className="text-primary">Predicted Bioactivities</Card.Title>
                     <Card.Subtitle size="xs"><FontAwesomeIcon icon="info" fixedWidth/>Predicted with <a target="_blank" rel="noopener noreferrer"  href="http://www.way2drug.com/passonline">PASS</a></Card.Subtitle>
                     <br />
-
-
-
+                    
                     {full_table}
                 </Card.Body>
             </Card>

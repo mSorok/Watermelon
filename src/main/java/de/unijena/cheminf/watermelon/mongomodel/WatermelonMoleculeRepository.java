@@ -14,5 +14,8 @@ public interface WatermelonMoleculeRepository extends MongoRepository<Watermelon
 
     List<WatermelonMolecule> findByInchi(String inchi);
 
+    @Query("{ $or: [ {chemicalTaxonomyNPclassifierPathway: ?0}, {chemicalTaxonomyNPclassifierSuperclass: ?0}, {chemicalTaxonomyNPclassifierClass: ?0} ] }")
+    List<WatermelonMolecule> findByChemclass(String query);
+
 
 }

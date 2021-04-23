@@ -211,7 +211,7 @@ class ApiController(val watermelonMoleculeRepository: WatermelonMoleculeReposito
 
 
 
-/*
+
     /**
      *  Searches by chem class type
      */
@@ -237,7 +237,7 @@ class ApiController(val watermelonMoleculeRepository: WatermelonMoleculeReposito
             }
         }
     }
-*/
+
 
 
     /**
@@ -336,9 +336,9 @@ class ApiController(val watermelonMoleculeRepository: WatermelonMoleculeReposito
 
     }
 
-/*
+
     fun doChemclassSearch(query: String): Map<String, Any>{
-/*
+
         println("do chem class search")
 
         println(query)
@@ -348,16 +348,16 @@ class ApiController(val watermelonMoleculeRepository: WatermelonMoleculeReposito
 
         println(results.size)
 
-        println("returning")*/
+        println("returning")
 
         return mapOf(
-                "originalQuery" to query
-                //"count" to results.size,
-                //"naturalProducts" to results
+                "originalQuery" to query,
+                "count" to results.size,
+                "naturalProducts" to results
         )
 
     }
-*/
+
 
     fun doAdvancedSearch(maxHits:Int?, advancedSearchModel: AdvancedSearchModel) : Map<String, Any>{
 

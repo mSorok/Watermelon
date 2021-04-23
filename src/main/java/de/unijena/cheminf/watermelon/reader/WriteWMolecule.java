@@ -42,6 +42,30 @@ public class WriteWMolecule {
         }
 
 
+    }
+
+
+    public void writeLongFromDatabase(File file){
+
+        List<WatermelonMolecule> allMolecules = watermelonMoleculeRepository.findAll();
+
+
+        String header =   "compoundName\tiupacName\tcas\tkegg\thmdb\tpubchem\tchebi\tfoodb\tlipidmaps\tmolecularFormula\tmolecularWeight\tafc_id\tinchikey\tsmiles\tinchi\talogp\tapol\teccentricConnectivityIndexDescriptor\tfsp3\tzagrebIndex\ttopoPSA\ttpsaEfficiency\tlipinskiRuleOf5Failures\tkappaShapeIndex1";
+
+        try {
+            FileWriter writer = new FileWriter(file);
+            writer.write(header+ System.lineSeparator());
+
+            for(WatermelonMolecule mol : allMolecules){
+                String line = mol.compoundName+"\t"+mol.iupacName+"\t"+mol.cas+"\t"+mol.kegg+"\t"+mol.hmdb+"\t"+mol.pubchem+"\t"+mol.chebi+"\t"+mol.foodb+"\t"+mol.lipidmaps+"\t"+mol.molecular_formula+"\t"+mol.molecular_weight+"\t"+mol.afc_id+"\t"+mol.inchikey+"\t"+mol.absolute_smiles+"\t"+mol.inchi+"\t"+mol.alogp+"\t"+mol.apol+"\t"+mol.eccentricConnectivityIndexDescriptor+"\t"+mol.fsp3+"\t"+mol.zagrebIndex+"\t"+mol.topoPSA+"\t"+mol.tpsaEfficiency+"\t"+mol.lipinskiRuleOf5Failures+"\t"+mol.kappaShapeIndex1;
+                writer.write(line+System.lineSeparator());
+            }
+
+
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
     }

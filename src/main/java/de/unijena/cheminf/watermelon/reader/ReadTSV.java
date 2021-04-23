@@ -49,7 +49,6 @@ public class ReadTSV {
 
 
 
-
     ArrayList<String> moleculesToExcludeArray = new ArrayList<>(Arrays.asList(moleculesToExclude));
     ArrayList<String> aminoAcidsArray = new ArrayList<>(Arrays.asList(aminoAcids));
     ArrayList<String> afcidArray = new ArrayList<>(Arrays.asList(afcIdToExclude));

@@ -48,9 +48,13 @@ public interface WatermelonMoleculeRepository extends MongoRepository<Watermelon
     @Query("{ apol: { $exists:false } }")
     List<WatermelonMolecule> findAllByApolComputed();
 
-    @Query(value="{ pubchemBits : { $bitsAllSet : ?0  }}", fields = "{ _id:0,afc_id: 1, unique_smiles:1, absolute_smiles:1, molecular_formula:1, molecular_weight:1, npl_score:1 , name:1,  total_atom_number:1}" )
+    @Query(value="{ pubchemBits : { $bitsAllSet : ?0  }}", fields = "{ _id:0,afc_id: 1, unique_smiles:1, absolute_smiles:1, molecular_formula:1, molecular_weight:1, moleculaFormula:1 ,molecularWeight:1,  compoundName:1,  total_atom_number:1}" )
     List<WatermelonMolecule> findAllPubchemBitsSet(byte[] querybits) ;
     //  'coconut_id': 1, 'unique_smiles':1, 'clean_smiles':1, 'molecular_formula':1, 'molecular_weight':1, 'npl_score':1 , 'name':1, 'smiles':1
+
+
+    @Query("{ $or: [ {chemicalTaxonomyNPclassifierPathway: ?0}, {chemicalTaxonomyNPclassifierSuperclass: ?0}, {chemicalTaxonomyNPclassifierClass: ?0} ] }")
+    List<WatermelonMolecule> findByChemclass(String query);
 
 
 

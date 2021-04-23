@@ -28,7 +28,7 @@ db.runCommand(
     indexes: [
         {
             key: {
-                alternativeName:"text", name:"text", acf_id:"text"
+                alternativeName:"text", compoundName:"text", acf_id:"text", pass_bioactivity_searcheable:"text", chemicalTaxonomySearcheable:"text
             },
             name: "superTextIndex",
 	    weights: { name:10, alternativeName:5  }
@@ -38,7 +38,9 @@ db.runCommand(
   }
 )
 
-
+db.watermelonMolecule.createIndex( { chemicalTaxonomyNPclassifierPathway : "hashed" } )
+db.watermelonMolecule.createIndex( { chemicalTaxonomyNPclassifierSuperclass : "hashed" } )
+db.watermelonMolecule.createIndex( { chemicalTaxonomyNPclassifierClass : "hashed" } )
 
 
 
